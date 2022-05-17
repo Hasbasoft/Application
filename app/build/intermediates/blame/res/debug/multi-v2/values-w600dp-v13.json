@@ -4,15 +4,8 @@
             "outputFile": "/Users/shirajsayed/Desktop/fire-app-builder-master/Application/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/shirajsayed/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/690a7e172c987772263c9cc2fef0b407/res/values-w600dp/values-w600dp.xml",
+                    "source": "/Users/shirajsayed/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/d9db06e383cbcd1eeabb66915344c4fb/res/values-w600dp-v13/values-w600dp-v13.xml",
                     "from": {
-                        "startLines": "4,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "232,296",
-                        "endColumns": "63,54",
-                        "endOffsets": "291,346"
-                    },
-                    "to": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
                         "startOffsets": "55,119",

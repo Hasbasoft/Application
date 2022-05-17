@@ -4,15 +4,8 @@
             "outputFile": "/Users/shirajsayed/Desktop/fire-app-builder-master/Application/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/shirajsayed/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/690a7e172c987772263c9cc2fef0b407/res/values-land/values-land.xml",
+                    "source": "/Users/shirajsayed/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/d9db06e383cbcd1eeabb66915344c4fb/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "4,7,10,13,16,17",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "229,466,722,967,1215,1286",
-                        "endColumns": "61,71,69,63,70,67",
-                        "endOffsets": "286,533,787,1026,1281,1349"
-                    },
-                    "to": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
                         "startOffsets": "55,117,189,259,323,394",

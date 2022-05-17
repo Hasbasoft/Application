@@ -13,9 +13,9 @@ public final class R {
         private attr() {}
 
         public static final int layoutManager = 0x7f0300bc;
-        public static final int reverseLayout = 0x7f0300fd;
-        public static final int spanCount = 0x7f03011a;
-        public static final int stackFromEnd = 0x7f03011f;
+        public static final int reverseLayout = 0x7f0300ff;
+        public static final int spanCount = 0x7f03011c;
+        public static final int stackFromEnd = 0x7f030122;
     }
     public static final class dimen {
         private dimen() {}
@@ -30,7 +30,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] RecyclerView = { 0x10100c4, 0x7f0300bc, 0x7f0300fd, 0x7f03011a, 0x7f03011f };
+        public static final int[] RecyclerView = { 0x10100c4, 0x7f0300bc, 0x7f0300ff, 0x7f03011c, 0x7f030122 };
         public static final int RecyclerView_android_orientation = 0;
         public static final int RecyclerView_layoutManager = 1;
         public static final int RecyclerView_reverseLayout = 2;

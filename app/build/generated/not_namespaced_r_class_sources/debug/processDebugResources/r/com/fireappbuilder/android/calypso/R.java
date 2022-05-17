@@ -1864,35 +1864,49 @@ public final class R {
      */
     public static final int ratingBarStyle=0x7f0300f4;
     /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int readDialogHeight=0x7f0300f5;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int readDialogWidth=0x7f0300f6;
+    public static final int ratingBarStyleIndicator=0x7f0300f5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int repeat=0x7f0300f7;
+    public static final int ratingBarStyleSmall=0x7f0300f6;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int readDialogHeight=0x7f0300f7;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int readDialogWidth=0x7f0300f8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int repeat_one=0x7f0300f8;
+    public static final int repeat=0x7f0300f9;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int repeat_one=0x7f0300fa;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1903,7 +1917,7 @@ public final class R {
      * <tr><td>maxLines</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int resizeTrigger=0x7f0300f9;
+    public static final int resizeTrigger=0x7f0300fb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1911,7 +1925,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int resizedPaddingAdjustmentBottom=0x7f0300fa;
+    public static final int resizedPaddingAdjustmentBottom=0x7f0300fc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1919,7 +1933,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int resizedPaddingAdjustmentTop=0x7f0300fb;
+    public static final int resizedPaddingAdjustmentTop=0x7f0300fd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1927,33 +1941,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int resizedTextSize=0x7f0300fc;
+    public static final int resizedTextSize=0x7f0300fe;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f0300fd;
+    public static final int reverseLayout=0x7f0300ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int rewind=0x7f0300fe;
+    public static final int rewind=0x7f030100;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int rowHeaderDockStyle=0x7f0300ff;
+    public static final int rowHeaderDockStyle=0x7f030101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int rowHeaderStyle=0x7f030100;
+    public static final int rowHeaderStyle=0x7f030102;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1969,59 +1983,49 @@ public final class R {
      * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int rowHeight=0x7f030101;
+    public static final int rowHeight=0x7f030103;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int rowHorizontalGridStyle=0x7f030102;
+    public static final int rowHorizontalGridStyle=0x7f030104;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int rowHoverCardDescriptionStyle=0x7f030103;
+    public static final int rowHoverCardDescriptionStyle=0x7f030105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int rowHoverCardTitleStyle=0x7f030104;
+    public static final int rowHoverCardTitleStyle=0x7f030106;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int rowsVerticalGridStyle=0x7f030105;
+    public static final int rowsVerticalGridStyle=0x7f030107;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f030106;
+    public static final int searchHintIcon=0x7f030108;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f030107;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int searchOrbBrightColor=0x7f030108;
+    public static final int searchIcon=0x7f030109;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2031,14 +2035,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int searchOrbColor=0x7f030109;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int searchOrbIcon=0x7f03010a;
+    public static final int searchOrbBrightColor=0x7f03010a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2048,50 +2045,67 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int searchOrbIconColor=0x7f03010b;
+    public static final int searchOrbColor=0x7f03010b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchOrbViewStyle=0x7f03010c;
+    public static final int searchOrbIcon=0x7f03010c;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int searchOrbIconColor=0x7f03010d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f03010d;
+    public static final int searchOrbViewStyle=0x7f03010e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f03010e;
+    public static final int searchViewStyle=0x7f03010f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f03010f;
+    public static final int seekBarStyle=0x7f030110;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f030110;
+    public static final int selectableItemBackground=0x7f030111;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int selectableItemBackgroundBorderless=0x7f030112;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int selectedAnimationDelay=0x7f030111;
+    public static final int selectedAnimationDelay=0x7f030113;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int selectedAnimationDuration=0x7f030112;
+    public static final int selectedAnimationDuration=0x7f030114;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2106,7 +2120,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f030113;
+    public static final int showAsAction=0x7f030115;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2120,117 +2134,124 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f030114;
+    public static final int showDividers=0x7f030116;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f030115;
+    public static final int showText=0x7f030117;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int shuffle=0x7f030116;
+    public static final int shuffle=0x7f030118;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f030117;
+    public static final int singleChoiceItemLayout=0x7f030119;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int skip_next=0x7f030118;
+    public static final int skip_next=0x7f03011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int skip_previous=0x7f030119;
+    public static final int skip_previous=0x7f03011b;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f03011a;
+    public static final int spanCount=0x7f03011c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f03011b;
+    public static final int spinBars=0x7f03011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f03011c;
+    public static final int spinnerDropDownItemStyle=0x7f03011e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f03011d;
+    public static final int spinnerStyle=0x7f03011f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f03011e;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int stackFromEnd=0x7f03011f;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int state_above_anchor=0x7f030120;
+    public static final int splitTrack=0x7f030120;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f030121;
+    public static final int srcCompat=0x7f030121;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int stackFromEnd=0x7f030122;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int state_above_anchor=0x7f030123;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int submitBackground=0x7f030124;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f030122;
+    public static final int subtitle=0x7f030125;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f030123;
+    public static final int subtitleTextAppearance=0x7f030126;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f030124;
+    public static final int subtitleTextColor=0x7f030127;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f030125;
+    public static final int subtitleTextStyle=0x7f030128;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f030126;
+    public static final int suggestionRowLayout=0x7f030129;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2238,7 +2259,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f030127;
+    public static final int switchMinWidth=0x7f03012a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2246,21 +2267,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f030128;
+    public static final int switchPadding=0x7f03012b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f030129;
+    public static final int switchStyle=0x7f03012c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f03012a;
+    public static final int switchTextAppearance=0x7f03012d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2269,59 +2290,49 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f03012b;
+    public static final int textAllCaps=0x7f03012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f03012c;
+    public static final int textAppearanceLargePopupMenu=0x7f03012f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f03012d;
+    public static final int textAppearanceListItem=0x7f030130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f03012e;
+    public static final int textAppearanceListItemSmall=0x7f030131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f03012f;
+    public static final int textAppearanceSearchResultSubtitle=0x7f030132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f030130;
+    public static final int textAppearanceSearchResultTitle=0x7f030133;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f030131;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f030132;
+    public static final int textAppearanceSmallPopupMenu=0x7f030134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2331,14 +2342,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f030133;
+    public static final int textColorAlertDialogListItem=0x7f030135;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f030136;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f030134;
+    public static final int theme=0x7f030137;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2346,7 +2367,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f030135;
+    public static final int thickness=0x7f030138;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2354,40 +2375,40 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f030136;
+    public static final int thumbTextPadding=0x7f030139;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int thumb_down=0x7f030137;
+    public static final int thumb_down=0x7f03013a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int thumb_down_outline=0x7f030138;
+    public static final int thumb_down_outline=0x7f03013b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int thumb_up=0x7f030139;
+    public static final int thumb_up=0x7f03013c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int thumb_up_outline=0x7f03013a;
+    public static final int thumb_up_outline=0x7f03013d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f03013b;
+    public static final int title=0x7f03013e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2395,7 +2416,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f03013c;
+    public static final int titleMarginBottom=0x7f03013f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2403,7 +2424,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f03013d;
+    public static final int titleMarginEnd=0x7f030140;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2411,7 +2432,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f03013e;
+    public static final int titleMarginStart=0x7f030141;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2419,7 +2440,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f03013f;
+    public static final int titleMarginTop=0x7f030142;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2427,48 +2448,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f030140;
+    public static final int titleMargins=0x7f030143;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f030141;
+    public static final int titleTextAppearance=0x7f030144;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f030142;
+    public static final int titleTextColor=0x7f030145;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f030143;
+    public static final int titleTextStyle=0x7f030146;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f030144;
+    public static final int toolbarNavigationButtonStyle=0x7f030147;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f030145;
+    public static final int toolbarStyle=0x7f030148;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f030146;
+    public static final int track=0x7f030149;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2476,29 +2497,29 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int verticalMargin=0x7f030147;
+    public static final int verticalMargin=0x7f03014a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f030148;
+    public static final int voiceIcon=0x7f03014b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f030149;
+    public static final int windowActionBar=0x7f03014c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f03014a;
+    public static final int windowActionBarOverlay=0x7f03014d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f03014b;
+    public static final int windowActionModeOverlay=0x7f03014e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2510,7 +2531,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f03014c;
+    public static final int windowFixedHeightMajor=0x7f03014f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2522,7 +2543,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f03014d;
+    public static final int windowFixedHeightMinor=0x7f030150;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2534,7 +2555,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f03014e;
+    public static final int windowFixedWidthMajor=0x7f030151;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2546,7 +2567,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f03014f;
+    public static final int windowFixedWidthMinor=0x7f030152;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2558,7 +2579,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f030150;
+    public static final int windowMinWidthMajor=0x7f030153;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2570,12 +2591,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f030151;
+    public static final int windowMinWidthMinor=0x7f030154;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f030152;
+    public static final int windowNoTitle=0x7f030155;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -2586,10 +2607,13 @@ public final class R {
     public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f040005;
     public static final int abc_config_closeDialogWhenTouchOutside=0x7f040006;
     public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f040007;
-    public static final int hide_more_options=0x7f040008;
-    public static final int is_iap_disabled=0x7f040009;
-    public static final int is_launcher_integration_enabled=0x7f04000a;
-    public static final int override_all_contents_subscription_flag=0x7f04000b;
+    public static final int enable_browser_support_on_ad_view=0x7f040008;
+    public static final int enable_key_events_on_ad_view=0x7f040009;
+    public static final int enable_play_state_overlay_on_ad_view=0x7f04000a;
+    public static final int hide_more_options=0x7f04000b;
+    public static final int is_iap_disabled=0x7f04000c;
+    public static final int is_launcher_integration_enabled=0x7f04000d;
+    public static final int override_all_contents_subscription_flag=0x7f04000e;
   }
   public static final class color {
     public static final int abc_background_cache_hint_selector_material_dark=0x7f050000;
@@ -3107,135 +3131,141 @@ public final class R {
     public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f07001e;
     public static final int abc_ic_menu_share_mtrl_alpha=0x7f07001f;
     public static final int abc_ic_search_api_mtrl_alpha=0x7f070020;
-    public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f070021;
-    public static final int abc_item_background_holo_dark=0x7f070022;
-    public static final int abc_item_background_holo_light=0x7f070023;
-    public static final int abc_list_divider_mtrl_alpha=0x7f070024;
-    public static final int abc_list_focused_holo=0x7f070025;
-    public static final int abc_list_longpressed_holo=0x7f070026;
-    public static final int abc_list_pressed_holo_dark=0x7f070027;
-    public static final int abc_list_pressed_holo_light=0x7f070028;
-    public static final int abc_list_selector_background_transition_holo_dark=0x7f070029;
-    public static final int abc_list_selector_background_transition_holo_light=0x7f07002a;
-    public static final int abc_list_selector_disabled_holo_dark=0x7f07002b;
-    public static final int abc_list_selector_disabled_holo_light=0x7f07002c;
-    public static final int abc_list_selector_holo_dark=0x7f07002d;
-    public static final int abc_list_selector_holo_light=0x7f07002e;
-    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f07002f;
-    public static final int abc_popup_background_mtrl_mult=0x7f070030;
-    public static final int abc_ratingbar_full_material=0x7f070031;
-    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f070032;
-    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f070033;
-    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f070034;
-    public static final int abc_scrubber_primary_mtrl_alpha=0x7f070035;
-    public static final int abc_scrubber_track_mtrl_alpha=0x7f070036;
-    public static final int abc_seekbar_thumb_material=0x7f070037;
-    public static final int abc_seekbar_track_material=0x7f070038;
-    public static final int abc_spinner_mtrl_am_alpha=0x7f070039;
-    public static final int abc_spinner_textfield_background_material=0x7f07003a;
-    public static final int abc_switch_thumb_material=0x7f07003b;
-    public static final int abc_switch_track_mtrl_alpha=0x7f07003c;
-    public static final int abc_tab_indicator_material=0x7f07003d;
-    public static final int abc_tab_indicator_mtrl_alpha=0x7f07003e;
-    public static final int abc_text_cursor_material=0x7f07003f;
-    public static final int abc_textfield_activated_mtrl_alpha=0x7f070040;
-    public static final int abc_textfield_default_mtrl_alpha=0x7f070041;
-    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f070042;
-    public static final int abc_textfield_search_default_mtrl_alpha=0x7f070043;
-    public static final int abc_textfield_search_material=0x7f070044;
-    public static final int action_button_background=0x7f070045;
-    public static final int action_button_focused=0x7f070046;
-    public static final int action_button_normal=0x7f070047;
-    public static final int action_button_text_color_selector=0x7f070048;
-    public static final int app_banner=0x7f070049;
-    public static final int app_logo=0x7f07004a;
-    public static final int bg_generic=0x7f07004b;
-    public static final int bg_generic_nopreview=0x7f07004c;
-    public static final int bg_gradient_search=0x7f07004d;
-    public static final int btn_generic_focused=0x7f07004e;
-    public static final int btn_normal=0x7f07004f;
-    public static final int card_background_default=0x7f070050;
-    public static final int company_logo=0x7f070051;
-    public static final int content_fade_focused=0x7f070052;
-    public static final int custom_progress=0x7f070053;
-    public static final int fire_app_builder_white=0x7f070054;
-    public static final int fire_app_builder_white_2=0x7f070055;
-    public static final int guillemet=0x7f070056;
-    public static final int guillemet_icon_default=0x7f070057;
-    public static final int guillemet_icon_focused=0x7f070058;
-    public static final int ic_alert=0x7f070059;
-    public static final int ic_closed_caption=0x7f07005a;
-    public static final int ic_closed_caption_disabled=0x7f07005b;
-    public static final int ic_closed_caption_off=0x7f07005c;
-    public static final int ic_closed_caption_on=0x7f07005d;
-    public static final int ic_login_logout=0x7f07005e;
-    public static final int ic_search=0x7f07005f;
-    public static final int ic_terms_text=0x7f070060;
-    public static final int lb_action_bg=0x7f070061;
-    public static final int lb_action_bg_focused=0x7f070062;
-    public static final int lb_background=0x7f070063;
-    public static final int lb_card_foreground=0x7f070064;
-    public static final int lb_card_shadow_focused=0x7f070065;
-    public static final int lb_card_shadow_normal=0x7f070066;
-    public static final int lb_control_button_primary=0x7f070067;
-    public static final int lb_control_button_secondary=0x7f070068;
-    public static final int lb_guidedactions_item_checkmark=0x7f070069;
-    public static final int lb_headers_right_fading=0x7f07006a;
-    public static final int lb_ic_actions_right_arrow=0x7f07006b;
-    public static final int lb_ic_cc=0x7f07006c;
-    public static final int lb_ic_fast_forward=0x7f07006d;
-    public static final int lb_ic_fast_rewind=0x7f07006e;
-    public static final int lb_ic_guidedactions_item_chevron=0x7f07006f;
-    public static final int lb_ic_hq=0x7f070070;
-    public static final int lb_ic_in_app_search=0x7f070071;
-    public static final int lb_ic_loop=0x7f070072;
-    public static final int lb_ic_loop_one=0x7f070073;
-    public static final int lb_ic_more=0x7f070074;
-    public static final int lb_ic_pause=0x7f070075;
-    public static final int lb_ic_play=0x7f070076;
-    public static final int lb_ic_playback_loop=0x7f070077;
-    public static final int lb_ic_replay=0x7f070078;
-    public static final int lb_ic_sad_cloud=0x7f070079;
-    public static final int lb_ic_search_mic=0x7f07007a;
-    public static final int lb_ic_search_mic_out=0x7f07007b;
-    public static final int lb_ic_shuffle=0x7f07007c;
-    public static final int lb_ic_skip_next=0x7f07007d;
-    public static final int lb_ic_skip_previous=0x7f07007e;
-    public static final int lb_ic_stop=0x7f07007f;
-    public static final int lb_ic_thumb_down=0x7f070080;
-    public static final int lb_ic_thumb_down_outline=0x7f070081;
-    public static final int lb_ic_thumb_up=0x7f070082;
-    public static final int lb_ic_thumb_up_outline=0x7f070083;
-    public static final int lb_in_app_search_bg=0x7f070084;
-    public static final int lb_in_app_search_shadow_focused=0x7f070085;
-    public static final int lb_in_app_search_shadow_normal=0x7f070086;
-    public static final int lb_playback_progress_bar=0x7f070087;
-    public static final int lb_search_orb=0x7f070088;
-    public static final int lb_speech_orb=0x7f070089;
-    public static final int lb_text_dot_one=0x7f07008a;
-    public static final int lb_text_dot_one_small=0x7f07008b;
-    public static final int lb_text_dot_two=0x7f07008c;
-    public static final int lb_text_dot_two_small=0x7f07008d;
-    public static final int leak_canary_icon=0x7f07008e;
-    public static final int leak_canary_notification=0x7f07008f;
-    public static final int leak_canary_toast_background=0x7f070090;
-    public static final int logo=0x7f070091;
-    public static final int movie=0x7f070092;
-    public static final int notification_template_icon_bg=0x7f070093;
-    public static final int placeholder_banner=0x7f070094;
-    public static final int powered_by_background=0x7f070095;
-    public static final int scrubber_disabled=0x7f070096;
-    public static final int scrubber_focussed=0x7f070097;
-    public static final int scrubber_normal=0x7f070098;
-    public static final int scrubber_pressed=0x7f070099;
-    public static final int search_background=0x7f07009a;
-    public static final int search_edit_text_bg=0x7f07009b;
-    public static final int search_edit_text_bg_color_selector=0x7f07009c;
-    public static final int search_edit_text_bg_unfocused=0x7f07009d;
-    public static final int search_icon=0x7f07009e;
-    public static final int splash_background=0x7f07009f;
-    public static final int splash_logo=0x7f0700a0;
-    public static final int synopsis_modal_bg=0x7f0700a1;
+    public static final int abc_ic_star_black_16dp=0x7f070021;
+    public static final int abc_ic_star_black_36dp=0x7f070022;
+    public static final int abc_ic_star_half_black_16dp=0x7f070023;
+    public static final int abc_ic_star_half_black_36dp=0x7f070024;
+    public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f070025;
+    public static final int abc_item_background_holo_dark=0x7f070026;
+    public static final int abc_item_background_holo_light=0x7f070027;
+    public static final int abc_list_divider_mtrl_alpha=0x7f070028;
+    public static final int abc_list_focused_holo=0x7f070029;
+    public static final int abc_list_longpressed_holo=0x7f07002a;
+    public static final int abc_list_pressed_holo_dark=0x7f07002b;
+    public static final int abc_list_pressed_holo_light=0x7f07002c;
+    public static final int abc_list_selector_background_transition_holo_dark=0x7f07002d;
+    public static final int abc_list_selector_background_transition_holo_light=0x7f07002e;
+    public static final int abc_list_selector_disabled_holo_dark=0x7f07002f;
+    public static final int abc_list_selector_disabled_holo_light=0x7f070030;
+    public static final int abc_list_selector_holo_dark=0x7f070031;
+    public static final int abc_list_selector_holo_light=0x7f070032;
+    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f070033;
+    public static final int abc_popup_background_mtrl_mult=0x7f070034;
+    public static final int abc_ratingbar_full_material=0x7f070035;
+    public static final int abc_ratingbar_indicator_material=0x7f070036;
+    public static final int abc_ratingbar_small_material=0x7f070037;
+    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f070038;
+    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f070039;
+    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f07003a;
+    public static final int abc_scrubber_primary_mtrl_alpha=0x7f07003b;
+    public static final int abc_scrubber_track_mtrl_alpha=0x7f07003c;
+    public static final int abc_seekbar_thumb_material=0x7f07003d;
+    public static final int abc_seekbar_track_material=0x7f07003e;
+    public static final int abc_spinner_mtrl_am_alpha=0x7f07003f;
+    public static final int abc_spinner_textfield_background_material=0x7f070040;
+    public static final int abc_switch_thumb_material=0x7f070041;
+    public static final int abc_switch_track_mtrl_alpha=0x7f070042;
+    public static final int abc_tab_indicator_material=0x7f070043;
+    public static final int abc_tab_indicator_mtrl_alpha=0x7f070044;
+    public static final int abc_text_cursor_material=0x7f070045;
+    public static final int abc_textfield_activated_mtrl_alpha=0x7f070046;
+    public static final int abc_textfield_default_mtrl_alpha=0x7f070047;
+    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f070048;
+    public static final int abc_textfield_search_default_mtrl_alpha=0x7f070049;
+    public static final int abc_textfield_search_material=0x7f07004a;
+    public static final int action_button_background=0x7f07004b;
+    public static final int action_button_focused=0x7f07004c;
+    public static final int action_button_normal=0x7f07004d;
+    public static final int action_button_text_color_selector=0x7f07004e;
+    public static final int app_banner=0x7f07004f;
+    public static final int app_logo=0x7f070050;
+    public static final int bg_generic=0x7f070051;
+    public static final int bg_generic_nopreview=0x7f070052;
+    public static final int bg_gradient_search=0x7f070053;
+    public static final int btn_generic_focused=0x7f070054;
+    public static final int btn_normal=0x7f070055;
+    public static final int card_background_default=0x7f070056;
+    public static final int company_logo=0x7f070057;
+    public static final int content_fade_focused=0x7f070058;
+    public static final int custom_progress=0x7f070059;
+    public static final int fire_app_builder_white=0x7f07005a;
+    public static final int fire_app_builder_white_2=0x7f07005b;
+    public static final int guillemet=0x7f07005c;
+    public static final int guillemet_icon_default=0x7f07005d;
+    public static final int guillemet_icon_focused=0x7f07005e;
+    public static final int ic_alert=0x7f07005f;
+    public static final int ic_closed_caption=0x7f070060;
+    public static final int ic_closed_caption_disabled=0x7f070061;
+    public static final int ic_closed_caption_off=0x7f070062;
+    public static final int ic_closed_caption_on=0x7f070063;
+    public static final int ic_login_logout=0x7f070064;
+    public static final int ic_search=0x7f070065;
+    public static final int ic_terms_text=0x7f070066;
+    public static final int lb_action_bg=0x7f070067;
+    public static final int lb_action_bg_focused=0x7f070068;
+    public static final int lb_background=0x7f070069;
+    public static final int lb_card_foreground=0x7f07006a;
+    public static final int lb_card_shadow_focused=0x7f07006b;
+    public static final int lb_card_shadow_normal=0x7f07006c;
+    public static final int lb_control_button_primary=0x7f07006d;
+    public static final int lb_control_button_secondary=0x7f07006e;
+    public static final int lb_guidedactions_item_checkmark=0x7f07006f;
+    public static final int lb_headers_right_fading=0x7f070070;
+    public static final int lb_ic_actions_right_arrow=0x7f070071;
+    public static final int lb_ic_cc=0x7f070072;
+    public static final int lb_ic_fast_forward=0x7f070073;
+    public static final int lb_ic_fast_rewind=0x7f070074;
+    public static final int lb_ic_guidedactions_item_chevron=0x7f070075;
+    public static final int lb_ic_hq=0x7f070076;
+    public static final int lb_ic_in_app_search=0x7f070077;
+    public static final int lb_ic_loop=0x7f070078;
+    public static final int lb_ic_loop_one=0x7f070079;
+    public static final int lb_ic_more=0x7f07007a;
+    public static final int lb_ic_pause=0x7f07007b;
+    public static final int lb_ic_play=0x7f07007c;
+    public static final int lb_ic_playback_loop=0x7f07007d;
+    public static final int lb_ic_replay=0x7f07007e;
+    public static final int lb_ic_sad_cloud=0x7f07007f;
+    public static final int lb_ic_search_mic=0x7f070080;
+    public static final int lb_ic_search_mic_out=0x7f070081;
+    public static final int lb_ic_shuffle=0x7f070082;
+    public static final int lb_ic_skip_next=0x7f070083;
+    public static final int lb_ic_skip_previous=0x7f070084;
+    public static final int lb_ic_stop=0x7f070085;
+    public static final int lb_ic_thumb_down=0x7f070086;
+    public static final int lb_ic_thumb_down_outline=0x7f070087;
+    public static final int lb_ic_thumb_up=0x7f070088;
+    public static final int lb_ic_thumb_up_outline=0x7f070089;
+    public static final int lb_in_app_search_bg=0x7f07008a;
+    public static final int lb_in_app_search_shadow_focused=0x7f07008b;
+    public static final int lb_in_app_search_shadow_normal=0x7f07008c;
+    public static final int lb_playback_progress_bar=0x7f07008d;
+    public static final int lb_search_orb=0x7f07008e;
+    public static final int lb_speech_orb=0x7f07008f;
+    public static final int lb_text_dot_one=0x7f070090;
+    public static final int lb_text_dot_one_small=0x7f070091;
+    public static final int lb_text_dot_two=0x7f070092;
+    public static final int lb_text_dot_two_small=0x7f070093;
+    public static final int leak_canary_icon=0x7f070094;
+    public static final int leak_canary_notification=0x7f070095;
+    public static final int leak_canary_toast_background=0x7f070096;
+    public static final int logo=0x7f070097;
+    public static final int movie=0x7f070098;
+    public static final int notification_template_icon_bg=0x7f070099;
+    public static final int placeholder_banner=0x7f07009a;
+    public static final int powered_by_background=0x7f07009b;
+    public static final int scrubber_disabled=0x7f07009c;
+    public static final int scrubber_focussed=0x7f07009d;
+    public static final int scrubber_normal=0x7f07009e;
+    public static final int scrubber_pressed=0x7f07009f;
+    public static final int search_background=0x7f0700a0;
+    public static final int search_edit_text_bg=0x7f0700a1;
+    public static final int search_edit_text_bg_color_selector=0x7f0700a2;
+    public static final int search_edit_text_bg_unfocused=0x7f0700a3;
+    public static final int search_icon=0x7f0700a4;
+    public static final int splash_background=0x7f0700a5;
+    public static final int splash_logo=0x7f0700a6;
+    public static final int synopsis_modal_bg=0x7f0700a7;
   }
   public static final class fraction {
     public static final int lb_browse_header_unselect_alpha=0x7f080000;
@@ -3572,15 +3602,16 @@ public final class R {
     public static final int leak_canary_max_stored_leaks=0x7f0a002c;
     public static final int leak_canary_watch_delay_millis=0x7f0a002d;
     public static final int num_of_search_elements_in_row=0x7f0a002e;
-    public static final int recent_grace_period=0x7f0a002f;
-    public static final int slide_show_fade_anim_duration=0x7f0a0030;
-    public static final int slide_show_fast_speed=0x7f0a0031;
-    public static final int slide_show_middle_speed=0x7f0a0032;
-    public static final int slide_show_slow_speed=0x7f0a0033;
-    public static final int spinner_alpha=0x7f0a0034;
-    public static final int state_refresh_period=0x7f0a0035;
-    public static final int status_bar_notification_info_maxnum=0x7f0a0036;
-    public static final int time_to_reload_content=0x7f0a0037;
+    public static final int play_state_overlay_alpha_value=0x7f0a002f;
+    public static final int recent_grace_period=0x7f0a0030;
+    public static final int slide_show_fade_anim_duration=0x7f0a0031;
+    public static final int slide_show_fast_speed=0x7f0a0032;
+    public static final int slide_show_middle_speed=0x7f0a0033;
+    public static final int slide_show_slow_speed=0x7f0a0034;
+    public static final int spinner_alpha=0x7f0a0035;
+    public static final int state_refresh_period=0x7f0a0036;
+    public static final int status_bar_notification_info_maxnum=0x7f0a0037;
+    public static final int time_to_reload_content=0x7f0a0038;
   }
   public static final class layout {
     public static final int abc_action_bar_title_item=0x7f0b0000;
@@ -3722,170 +3753,171 @@ public final class R {
     public static final int abc_shareactionprovider_share_with=0x7f0f0010;
     public static final int abc_shareactionprovider_share_with_application=0x7f0f0011;
     public static final int abc_toolbar_collapse_description=0x7f0f0012;
-    public static final int alexa_media_session_permission=0x7f0f0013;
-    public static final int analytics_attribute_to_content_extra_map_file=0x7f0f0014;
-    public static final int app_name=0x7f0f0015;
-    public static final int app_name_short=0x7f0f0016;
-    public static final int authentication_error_message=0x7f0f0017;
-    public static final int authentication_system_error_message=0x7f0f0018;
-    public static final int authorization_error_message=0x7f0f0019;
-    public static final int auto_play_speed=0x7f0f001a;
-    public static final int basic_file_based_url_generator_config_file_path=0x7f0f001b;
-    public static final int basic_file_downloader_config_file_path=0x7f0f001c;
-    public static final int basic_http_downloader_config_file_path=0x7f0f001d;
-    public static final int basic_token_based_url_generator_config_file_path=0x7f0f001e;
-    public static final int browse_title=0x7f0f001f;
-    public static final int btn_get_new_code=0x7f0f0020;
-    public static final int btn_submit=0x7f0f0021;
-    public static final int copyright=0x7f0f0022;
-    public static final int daily_pass_1=0x7f0f0023;
-    public static final int daily_pass_2=0x7f0f0024;
-    public static final int data_loader_config_file=0x7f0f0025;
-    public static final int default_bold_font=0x7f0f0026;
-    public static final int default_light_font=0x7f0f0027;
-    public static final int default_regular_font=0x7f0f0028;
-    public static final int dismiss_label=0x7f0f0029;
-    public static final int download_data=0x7f0f002a;
-    public static final int drm_encryption_schema=0x7f0f002b;
-    public static final int duration=0x7f0f002c;
-    public static final int encrypted_authentication_app_id=0x7f0f002d;
-    public static final int encrypted_authentication_client_token=0x7f0f002e;
-    public static final int episode=0x7f0f002f;
-    public static final int exit_app_label=0x7f0f0030;
-    public static final int fb_key_1=0x7f0f0031;
-    public static final int fb_key_2=0x7f0f0032;
-    public static final int fb_key_3=0x7f0f0033;
-    public static final int fb_key_4=0x7f0f0034;
-    public static final int fb_key_5=0x7f0f0035;
-    public static final int fb_key_6=0x7f0f0036;
-    public static final int feed_error_message=0x7f0f0037;
-    public static final int feed_loading=0x7f0f0038;
-    public static final int feed_reloading=0x7f0f0039;
-    public static final int global_search=0x7f0f003a;
-    public static final int go_to_network_settings_label=0x7f0f003b;
-    public static final int iap_error_dialog_title=0x7f0f003c;
-    public static final int la_url=0x7f0f003d;
-    public static final int later=0x7f0f003e;
-    public static final int launcher_integration_app_display_name=0x7f0f003f;
-    public static final int launcher_integration_content_id_key=0x7f0f0040;
-    public static final int launcher_integration_intent_class_value=0x7f0f0041;
-    public static final int launcher_integration_intent_package_value=0x7f0f0042;
-    public static final int launcher_integration_partner_id=0x7f0f0043;
-    public static final int lb_control_display_fast_forward_multiplier=0x7f0f0044;
-    public static final int lb_control_display_rewind_multiplier=0x7f0f0045;
-    public static final int lb_guidedactions_item_disabled_chevron_alpha=0x7f0f0046;
-    public static final int lb_guidedactions_item_enabled_chevron_alpha=0x7f0f0047;
-    public static final int lb_guidedactions_item_unselected_description_text_alpha=0x7f0f0048;
-    public static final int lb_guidedactions_item_unselected_text_alpha=0x7f0f0049;
-    public static final int lb_playback_controls_closed_captioning_disable=0x7f0f004a;
-    public static final int lb_playback_controls_closed_captioning_enable=0x7f0f004b;
-    public static final int lb_playback_controls_fast_forward=0x7f0f004c;
-    public static final int lb_playback_controls_fast_forward_multiplier=0x7f0f004d;
-    public static final int lb_playback_controls_high_quality_disable=0x7f0f004e;
-    public static final int lb_playback_controls_high_quality_enable=0x7f0f004f;
-    public static final int lb_playback_controls_more_actions=0x7f0f0050;
-    public static final int lb_playback_controls_pause=0x7f0f0051;
-    public static final int lb_playback_controls_play=0x7f0f0052;
-    public static final int lb_playback_controls_repeat_all=0x7f0f0053;
-    public static final int lb_playback_controls_repeat_none=0x7f0f0054;
-    public static final int lb_playback_controls_repeat_one=0x7f0f0055;
-    public static final int lb_playback_controls_rewind=0x7f0f0056;
-    public static final int lb_playback_controls_rewind_multiplier=0x7f0f0057;
-    public static final int lb_playback_controls_shuffle_disable=0x7f0f0058;
-    public static final int lb_playback_controls_shuffle_enable=0x7f0f0059;
-    public static final int lb_playback_controls_skip_next=0x7f0f005a;
-    public static final int lb_playback_controls_skip_previous=0x7f0f005b;
-    public static final int lb_playback_controls_thumb_down=0x7f0f005c;
-    public static final int lb_playback_controls_thumb_down_outline=0x7f0f005d;
-    public static final int lb_playback_controls_thumb_up=0x7f0f005e;
-    public static final int lb_playback_controls_thumb_up_outline=0x7f0f005f;
-    public static final int lb_search_bar_hint=0x7f0f0060;
-    public static final int lb_search_bar_hint_speech=0x7f0f0061;
-    public static final int lb_search_bar_hint_with_title=0x7f0f0062;
-    public static final int lb_search_bar_hint_with_title_speech=0x7f0f0063;
-    public static final int leak_canary_analysis_failed=0x7f0f0064;
-    public static final int leak_canary_class_has_leaked=0x7f0f0065;
-    public static final int leak_canary_could_not_save_text=0x7f0f0066;
-    public static final int leak_canary_could_not_save_title=0x7f0f0067;
-    public static final int leak_canary_delete=0x7f0f0068;
-    public static final int leak_canary_delete_all=0x7f0f0069;
-    public static final int leak_canary_display_activity_label=0x7f0f006a;
-    public static final int leak_canary_excluded_row=0x7f0f006b;
-    public static final int leak_canary_failure_report=0x7f0f006c;
-    public static final int leak_canary_leak_excluded=0x7f0f006d;
-    public static final int leak_canary_leak_list_title=0x7f0f006e;
-    public static final int leak_canary_no_leak_text=0x7f0f006f;
-    public static final int leak_canary_no_leak_title=0x7f0f0070;
-    public static final int leak_canary_notification_message=0x7f0f0071;
-    public static final int leak_canary_permission_notification_text=0x7f0f0072;
-    public static final int leak_canary_permission_notification_title=0x7f0f0073;
-    public static final int leak_canary_share_heap_dump=0x7f0f0074;
-    public static final int leak_canary_share_leak=0x7f0f0075;
-    public static final int leak_canary_share_with=0x7f0f0076;
-    public static final int leak_canary_storage_permission_activity_label=0x7f0f0077;
-    public static final int leak_canary_toast_heap_dump=0x7f0f0078;
-    public static final int load_data=0x7f0f0079;
-    public static final int loading=0x7f0f007a;
-    public static final int logger_analytics_custom_tags=0x7f0f007b;
-    public static final int login_description=0x7f0f007c;
-    public static final int login_dialog_description=0x7f0f007d;
-    public static final int login_label=0x7f0f007e;
-    public static final int logout_description=0x7f0f007f;
-    public static final int logout_dialog_description=0x7f0f0080;
-    public static final int logout_dialog_option_1=0x7f0f0081;
-    public static final int logout_dialog_option_2=0x7f0f0082;
-    public static final int logout_failure_message=0x7f0f0083;
-    public static final int logout_label=0x7f0f0084;
-    public static final int logout_settings_fragment_tag=0x7f0f0085;
-    public static final int logout_success_message=0x7f0f0086;
-    public static final int mvpd_url=0x7f0f0087;
-    public static final int network_error_message=0x7f0f0088;
-    public static final int notice_settings_fragment_tag=0x7f0f0089;
-    public static final int now=0x7f0f008a;
-    public static final int ok=0x7f0f008b;
-    public static final int optional_login_dialog_message=0x7f0f008c;
-    public static final int optional_login_dialog_title=0x7f0f008d;
-    public static final int orb_search_action=0x7f0f008e;
-    public static final int playback_error_message=0x7f0f008f;
-    public static final int premium_1=0x7f0f0090;
-    public static final int premium_2=0x7f0f0091;
-    public static final int recent_row=0x7f0f0092;
-    public static final int recommended_contents_header=0x7f0f0093;
-    public static final int registration_code_error_message=0x7f0f0094;
-    public static final int related_contents=0x7f0f0095;
-    public static final int resume_1=0x7f0f0096;
-    public static final int resume_2=0x7f0f0097;
-    public static final int search_bar_hint=0x7f0f0098;
-    public static final int search_results=0x7f0f0099;
-    public static final int season=0x7f0f009a;
-    public static final int second_screen_login_instruction_line_1=0x7f0f009b;
-    public static final int second_screen_login_instruction_line_2=0x7f0f009c;
-    public static final int second_screen_login_instruction_line_3=0x7f0f009d;
-    public static final int second_screen_login_instruction_line_4=0x7f0f009e;
-    public static final int settings_title=0x7f0f009f;
-    public static final int skus_file=0x7f0f00a0;
-    public static final int slideshow_description=0x7f0f00a1;
-    public static final int slideshow_label=0x7f0f00a2;
-    public static final int slideshow_settings_fragment_tag=0x7f0f00a3;
-    public static final int slideshow_title=0x7f0f00a4;
-    public static final int status_bar_notification_info_overflow=0x7f0f00a5;
-    public static final int subscription_expired=0x7f0f00a6;
-    public static final int task=0x7f0f00a7;
-    public static final int terms_description=0x7f0f00a8;
-    public static final int terms_of_use_file=0x7f0f00a9;
-    public static final int terms_title=0x7f0f00aa;
-    public static final int time_remaining=0x7f0f00ab;
-    public static final int try_again_label=0x7f0f00ac;
-    public static final int video_subtitle=0x7f0f00ad;
-    public static final int video_title=0x7f0f00ae;
-    public static final int watch_from_beginning_1=0x7f0f00af;
-    public static final int watch_from_beginning_2=0x7f0f00b0;
-    public static final int watch_now_1=0x7f0f00b1;
-    public static final int watch_now_2=0x7f0f00b2;
-    public static final int watchlist_1=0x7f0f00b3;
-    public static final int watchlist_2=0x7f0f00b4;
-    public static final int watchlist_3=0x7f0f00b5;
-    public static final int watchlist_row=0x7f0f00b6;
+    public static final int ad_tag=0x7f0f0013;
+    public static final int alexa_media_session_permission=0x7f0f0014;
+    public static final int analytics_attribute_to_content_extra_map_file=0x7f0f0015;
+    public static final int app_name=0x7f0f0016;
+    public static final int app_name_short=0x7f0f0017;
+    public static final int authentication_error_message=0x7f0f0018;
+    public static final int authentication_system_error_message=0x7f0f0019;
+    public static final int authorization_error_message=0x7f0f001a;
+    public static final int auto_play_speed=0x7f0f001b;
+    public static final int basic_file_based_url_generator_config_file_path=0x7f0f001c;
+    public static final int basic_file_downloader_config_file_path=0x7f0f001d;
+    public static final int basic_http_downloader_config_file_path=0x7f0f001e;
+    public static final int basic_token_based_url_generator_config_file_path=0x7f0f001f;
+    public static final int browse_title=0x7f0f0020;
+    public static final int btn_get_new_code=0x7f0f0021;
+    public static final int btn_submit=0x7f0f0022;
+    public static final int copyright=0x7f0f0023;
+    public static final int daily_pass_1=0x7f0f0024;
+    public static final int daily_pass_2=0x7f0f0025;
+    public static final int data_loader_config_file=0x7f0f0026;
+    public static final int default_bold_font=0x7f0f0027;
+    public static final int default_light_font=0x7f0f0028;
+    public static final int default_regular_font=0x7f0f0029;
+    public static final int dismiss_label=0x7f0f002a;
+    public static final int download_data=0x7f0f002b;
+    public static final int drm_encryption_schema=0x7f0f002c;
+    public static final int duration=0x7f0f002d;
+    public static final int encrypted_authentication_app_id=0x7f0f002e;
+    public static final int encrypted_authentication_client_token=0x7f0f002f;
+    public static final int episode=0x7f0f0030;
+    public static final int exit_app_label=0x7f0f0031;
+    public static final int fb_key_1=0x7f0f0032;
+    public static final int fb_key_2=0x7f0f0033;
+    public static final int fb_key_3=0x7f0f0034;
+    public static final int fb_key_4=0x7f0f0035;
+    public static final int fb_key_5=0x7f0f0036;
+    public static final int fb_key_6=0x7f0f0037;
+    public static final int feed_error_message=0x7f0f0038;
+    public static final int feed_loading=0x7f0f0039;
+    public static final int feed_reloading=0x7f0f003a;
+    public static final int global_search=0x7f0f003b;
+    public static final int go_to_network_settings_label=0x7f0f003c;
+    public static final int iap_error_dialog_title=0x7f0f003d;
+    public static final int la_url=0x7f0f003e;
+    public static final int later=0x7f0f003f;
+    public static final int launcher_integration_app_display_name=0x7f0f0040;
+    public static final int launcher_integration_content_id_key=0x7f0f0041;
+    public static final int launcher_integration_intent_class_value=0x7f0f0042;
+    public static final int launcher_integration_intent_package_value=0x7f0f0043;
+    public static final int launcher_integration_partner_id=0x7f0f0044;
+    public static final int lb_control_display_fast_forward_multiplier=0x7f0f0045;
+    public static final int lb_control_display_rewind_multiplier=0x7f0f0046;
+    public static final int lb_guidedactions_item_disabled_chevron_alpha=0x7f0f0047;
+    public static final int lb_guidedactions_item_enabled_chevron_alpha=0x7f0f0048;
+    public static final int lb_guidedactions_item_unselected_description_text_alpha=0x7f0f0049;
+    public static final int lb_guidedactions_item_unselected_text_alpha=0x7f0f004a;
+    public static final int lb_playback_controls_closed_captioning_disable=0x7f0f004b;
+    public static final int lb_playback_controls_closed_captioning_enable=0x7f0f004c;
+    public static final int lb_playback_controls_fast_forward=0x7f0f004d;
+    public static final int lb_playback_controls_fast_forward_multiplier=0x7f0f004e;
+    public static final int lb_playback_controls_high_quality_disable=0x7f0f004f;
+    public static final int lb_playback_controls_high_quality_enable=0x7f0f0050;
+    public static final int lb_playback_controls_more_actions=0x7f0f0051;
+    public static final int lb_playback_controls_pause=0x7f0f0052;
+    public static final int lb_playback_controls_play=0x7f0f0053;
+    public static final int lb_playback_controls_repeat_all=0x7f0f0054;
+    public static final int lb_playback_controls_repeat_none=0x7f0f0055;
+    public static final int lb_playback_controls_repeat_one=0x7f0f0056;
+    public static final int lb_playback_controls_rewind=0x7f0f0057;
+    public static final int lb_playback_controls_rewind_multiplier=0x7f0f0058;
+    public static final int lb_playback_controls_shuffle_disable=0x7f0f0059;
+    public static final int lb_playback_controls_shuffle_enable=0x7f0f005a;
+    public static final int lb_playback_controls_skip_next=0x7f0f005b;
+    public static final int lb_playback_controls_skip_previous=0x7f0f005c;
+    public static final int lb_playback_controls_thumb_down=0x7f0f005d;
+    public static final int lb_playback_controls_thumb_down_outline=0x7f0f005e;
+    public static final int lb_playback_controls_thumb_up=0x7f0f005f;
+    public static final int lb_playback_controls_thumb_up_outline=0x7f0f0060;
+    public static final int lb_search_bar_hint=0x7f0f0061;
+    public static final int lb_search_bar_hint_speech=0x7f0f0062;
+    public static final int lb_search_bar_hint_with_title=0x7f0f0063;
+    public static final int lb_search_bar_hint_with_title_speech=0x7f0f0064;
+    public static final int leak_canary_analysis_failed=0x7f0f0065;
+    public static final int leak_canary_class_has_leaked=0x7f0f0066;
+    public static final int leak_canary_could_not_save_text=0x7f0f0067;
+    public static final int leak_canary_could_not_save_title=0x7f0f0068;
+    public static final int leak_canary_delete=0x7f0f0069;
+    public static final int leak_canary_delete_all=0x7f0f006a;
+    public static final int leak_canary_display_activity_label=0x7f0f006b;
+    public static final int leak_canary_excluded_row=0x7f0f006c;
+    public static final int leak_canary_failure_report=0x7f0f006d;
+    public static final int leak_canary_leak_excluded=0x7f0f006e;
+    public static final int leak_canary_leak_list_title=0x7f0f006f;
+    public static final int leak_canary_no_leak_text=0x7f0f0070;
+    public static final int leak_canary_no_leak_title=0x7f0f0071;
+    public static final int leak_canary_notification_message=0x7f0f0072;
+    public static final int leak_canary_permission_notification_text=0x7f0f0073;
+    public static final int leak_canary_permission_notification_title=0x7f0f0074;
+    public static final int leak_canary_share_heap_dump=0x7f0f0075;
+    public static final int leak_canary_share_leak=0x7f0f0076;
+    public static final int leak_canary_share_with=0x7f0f0077;
+    public static final int leak_canary_storage_permission_activity_label=0x7f0f0078;
+    public static final int leak_canary_toast_heap_dump=0x7f0f0079;
+    public static final int load_data=0x7f0f007a;
+    public static final int loading=0x7f0f007b;
+    public static final int logger_analytics_custom_tags=0x7f0f007c;
+    public static final int login_description=0x7f0f007d;
+    public static final int login_dialog_description=0x7f0f007e;
+    public static final int login_label=0x7f0f007f;
+    public static final int logout_description=0x7f0f0080;
+    public static final int logout_dialog_description=0x7f0f0081;
+    public static final int logout_dialog_option_1=0x7f0f0082;
+    public static final int logout_dialog_option_2=0x7f0f0083;
+    public static final int logout_failure_message=0x7f0f0084;
+    public static final int logout_label=0x7f0f0085;
+    public static final int logout_settings_fragment_tag=0x7f0f0086;
+    public static final int logout_success_message=0x7f0f0087;
+    public static final int mvpd_url=0x7f0f0088;
+    public static final int network_error_message=0x7f0f0089;
+    public static final int notice_settings_fragment_tag=0x7f0f008a;
+    public static final int now=0x7f0f008b;
+    public static final int ok=0x7f0f008c;
+    public static final int optional_login_dialog_message=0x7f0f008d;
+    public static final int optional_login_dialog_title=0x7f0f008e;
+    public static final int orb_search_action=0x7f0f008f;
+    public static final int playback_error_message=0x7f0f0090;
+    public static final int premium_1=0x7f0f0091;
+    public static final int premium_2=0x7f0f0092;
+    public static final int recent_row=0x7f0f0093;
+    public static final int recommended_contents_header=0x7f0f0094;
+    public static final int registration_code_error_message=0x7f0f0095;
+    public static final int related_contents=0x7f0f0096;
+    public static final int resume_1=0x7f0f0097;
+    public static final int resume_2=0x7f0f0098;
+    public static final int search_bar_hint=0x7f0f0099;
+    public static final int search_results=0x7f0f009a;
+    public static final int season=0x7f0f009b;
+    public static final int second_screen_login_instruction_line_1=0x7f0f009c;
+    public static final int second_screen_login_instruction_line_2=0x7f0f009d;
+    public static final int second_screen_login_instruction_line_3=0x7f0f009e;
+    public static final int second_screen_login_instruction_line_4=0x7f0f009f;
+    public static final int settings_title=0x7f0f00a0;
+    public static final int skus_file=0x7f0f00a1;
+    public static final int slideshow_description=0x7f0f00a2;
+    public static final int slideshow_label=0x7f0f00a3;
+    public static final int slideshow_settings_fragment_tag=0x7f0f00a4;
+    public static final int slideshow_title=0x7f0f00a5;
+    public static final int status_bar_notification_info_overflow=0x7f0f00a6;
+    public static final int subscription_expired=0x7f0f00a7;
+    public static final int task=0x7f0f00a8;
+    public static final int terms_description=0x7f0f00a9;
+    public static final int terms_of_use_file=0x7f0f00aa;
+    public static final int terms_title=0x7f0f00ab;
+    public static final int time_remaining=0x7f0f00ac;
+    public static final int try_again_label=0x7f0f00ad;
+    public static final int video_subtitle=0x7f0f00ae;
+    public static final int video_title=0x7f0f00af;
+    public static final int watch_from_beginning_1=0x7f0f00b0;
+    public static final int watch_from_beginning_2=0x7f0f00b1;
+    public static final int watch_now_1=0x7f0f00b2;
+    public static final int watch_now_2=0x7f0f00b3;
+    public static final int watchlist_1=0x7f0f00b4;
+    public static final int watchlist_2=0x7f0f00b5;
+    public static final int watchlist_3=0x7f0f00b6;
+    public static final int watchlist_row=0x7f0f00b7;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f100000;
@@ -4025,261 +4057,272 @@ public final class R {
     public static final int Base_Widget_AppCompat_ProgressBar=0x7f100086;
     public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f100087;
     public static final int Base_Widget_AppCompat_RatingBar=0x7f100088;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f100089;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f10008a;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f10008b;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f10008c;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f10008d;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f10008e;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f10008f;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f100090;
-    public static final int DetailsDescription=0x7f100091;
-    public static final int Platform_AppCompat=0x7f100092;
-    public static final int Platform_AppCompat_Light=0x7f100093;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f100094;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f100095;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f100096;
-    public static final int Platform_V11_AppCompat=0x7f100097;
-    public static final int Platform_V11_AppCompat_Light=0x7f100098;
-    public static final int Platform_V14_AppCompat=0x7f100099;
-    public static final int Platform_V14_AppCompat_Light=0x7f10009a;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f10009b;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f10009c;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f10009d;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f10009e;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f10009f;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f1000a0;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f1000a1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f1000a2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f1000a3;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f1000a4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f1000a5;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f1000a6;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f1000a7;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f1000a8;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f1000a9;
-    public static final int SearchKeys=0x7f1000aa;
-    public static final int TextAppearance_AppCompat=0x7f1000ab;
-    public static final int TextAppearance_AppCompat_Body1=0x7f1000ac;
-    public static final int TextAppearance_AppCompat_Body2=0x7f1000ad;
-    public static final int TextAppearance_AppCompat_Button=0x7f1000ae;
-    public static final int TextAppearance_AppCompat_Caption=0x7f1000af;
-    public static final int TextAppearance_AppCompat_Display1=0x7f1000b0;
-    public static final int TextAppearance_AppCompat_Display2=0x7f1000b1;
-    public static final int TextAppearance_AppCompat_Display3=0x7f1000b2;
-    public static final int TextAppearance_AppCompat_Display4=0x7f1000b3;
-    public static final int TextAppearance_AppCompat_Headline=0x7f1000b4;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f1000b5;
-    public static final int TextAppearance_AppCompat_Large=0x7f1000b6;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f1000b7;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f1000b8;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f1000b9;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f1000ba;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f1000bb;
-    public static final int TextAppearance_AppCompat_Medium=0x7f1000bc;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f1000bd;
-    public static final int TextAppearance_AppCompat_Menu=0x7f1000be;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f1000bf;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f1000c0;
-    public static final int TextAppearance_AppCompat_Small=0x7f1000c1;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f1000c2;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f1000c3;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f1000c4;
-    public static final int TextAppearance_AppCompat_Title=0x7f1000c5;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f1000c6;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f1000c7;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f1000c8;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f1000c9;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f1000ca;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f1000cb;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f1000cc;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f1000cd;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f1000ce;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f1000cf;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f1000d0;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f1000d1;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f1000d2;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f1000d3;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f1000d4;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f1000d5;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f1000d6;
-    public static final int TextAppearance_Leanback=0x7f1000d7;
-    public static final int TextAppearance_Leanback_DetailsActionButton=0x7f1000d8;
-    public static final int TextAppearance_Leanback_DetailsDescriptionBody=0x7f1000d9;
-    public static final int TextAppearance_Leanback_DetailsDescriptionSubtitle=0x7f1000da;
-    public static final int TextAppearance_Leanback_DetailsDescriptionTitle=0x7f1000db;
-    public static final int TextAppearance_Leanback_ErrorMessage=0x7f1000dc;
-    public static final int TextAppearance_Leanback_Header=0x7f1000dd;
-    public static final int TextAppearance_Leanback_PlaybackControlLabel=0x7f1000de;
-    public static final int TextAppearance_Leanback_PlaybackControlsTime=0x7f1000df;
-    public static final int TextAppearance_Leanback_Row_Header=0x7f1000e0;
-    public static final int TextAppearance_Leanback_Row_HoverCardDescription=0x7f1000e1;
-    public static final int TextAppearance_Leanback_Row_HoverCardTitle=0x7f1000e2;
-    public static final int TextAppearance_Leanback_SearchTextEdit=0x7f1000e3;
-    public static final int TextAppearance_Leanback_Title=0x7f1000e4;
-    public static final int TextAppearance_LeanbackBase=0x7f1000e5;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f1000e6;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f1000e7;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f1000e8;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f1000e9;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f1000ea;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f1000eb;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f1000ec;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f1000ed;
-    public static final int Theme_AppCompat=0x7f1000ee;
-    public static final int Theme_AppCompat_CompactMenu=0x7f1000ef;
-    public static final int Theme_AppCompat_Dialog=0x7f1000f0;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f1000f1;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f1000f2;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f1000f3;
-    public static final int Theme_AppCompat_Light=0x7f1000f4;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f1000f5;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f1000f6;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f1000f7;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f1000f8;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f1000f9;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f1000fa;
-    public static final int Theme_AppCompat_NoActionBar=0x7f1000fb;
-    public static final int Theme_Leanback=0x7f1000fc;
-    public static final int Theme_Leanback_Browse=0x7f1000fd;
-    public static final int Theme_Leanback_Details=0x7f1000fe;
-    public static final int Theme_Leanback_Details_NoSharedElementTransition=0x7f1000ff;
-    public static final int Theme_Leanback_GuidedStep=0x7f100100;
-    public static final int Theme_Leanback_VerticalGrid=0x7f100101;
-    public static final int Theme_LeanbackBase=0x7f100102;
-    public static final int ThemeOverlay_AppCompat=0x7f100103;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f100104;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f100105;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f100106;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f100107;
-    public static final int Widget_AppCompat_ActionBar=0x7f100108;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f100109;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f10010a;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f10010b;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f10010c;
-    public static final int Widget_AppCompat_ActionButton=0x7f10010d;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f10010e;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f10010f;
-    public static final int Widget_AppCompat_ActionMode=0x7f100110;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f100111;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f100112;
-    public static final int Widget_AppCompat_Button=0x7f100113;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f100114;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f100115;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f100116;
-    public static final int Widget_AppCompat_Button_Colored=0x7f100117;
-    public static final int Widget_AppCompat_Button_Small=0x7f100118;
-    public static final int Widget_AppCompat_ButtonBar=0x7f100119;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f10011a;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f10011b;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f10011c;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f10011d;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f10011e;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f10011f;
-    public static final int Widget_AppCompat_EditText=0x7f100120;
-    public static final int Widget_AppCompat_ImageButton=0x7f100121;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f100122;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f100123;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f100124;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f100125;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f100126;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f100127;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f100128;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f100129;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f10012a;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f10012b;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f10012c;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f10012d;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f10012e;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f10012f;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f100130;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f100131;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f100132;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f100133;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f100134;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f100135;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f100136;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f100137;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f100138;
-    public static final int Widget_AppCompat_ListView=0x7f100139;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f10013a;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f10013b;
-    public static final int Widget_AppCompat_PopupMenu=0x7f10013c;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f10013d;
-    public static final int Widget_AppCompat_PopupWindow=0x7f10013e;
-    public static final int Widget_AppCompat_ProgressBar=0x7f10013f;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f100140;
-    public static final int Widget_AppCompat_RatingBar=0x7f100141;
-    public static final int Widget_AppCompat_SearchView=0x7f100142;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f100143;
-    public static final int Widget_AppCompat_SeekBar=0x7f100144;
-    public static final int Widget_AppCompat_Spinner=0x7f100145;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f100146;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f100147;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f100148;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f100149;
-    public static final int Widget_AppCompat_Toolbar=0x7f10014a;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f10014b;
-    public static final int Widget_Example_Leanback_Rows_VerticalGridView=0x7f10014c;
-    public static final int Widget_Example_Leanback_Title_Text=0x7f10014d;
-    public static final int Widget_Leanback=0x7f10014e;
-    public static final int Widget_Leanback_BaseCardViewStyle=0x7f10014f;
-    public static final int Widget_Leanback_DetailsActionButtonStyle=0x7f100150;
-    public static final int Widget_Leanback_DetailsActionButtonStyle_Custom=0x7f100151;
-    public static final int Widget_Leanback_DetailsActionButtonStyleBase=0x7f100152;
-    public static final int Widget_Leanback_DetailsDescriptionBodyStyle=0x7f100153;
-    public static final int Widget_Leanback_DetailsDescriptionSubtitleStyle=0x7f100154;
-    public static final int Widget_Leanback_DetailsDescriptionTitleStyle=0x7f100155;
-    public static final int Widget_Leanback_ErrorMessageStyle=0x7f100156;
-    public static final int Widget_Leanback_GridItems=0x7f100157;
-    public static final int Widget_Leanback_GridItems_VerticalGridView=0x7f100158;
-    public static final int Widget_Leanback_GuidanceBreadcrumbStyle=0x7f100159;
-    public static final int Widget_Leanback_GuidanceContainerStyle=0x7f10015a;
-    public static final int Widget_Leanback_GuidanceDescriptionStyle=0x7f10015b;
-    public static final int Widget_Leanback_GuidanceIconStyle=0x7f10015c;
-    public static final int Widget_Leanback_GuidanceTitleStyle=0x7f10015d;
-    public static final int Widget_Leanback_GuidedActionItemCheckmarkStyle=0x7f10015e;
-    public static final int Widget_Leanback_GuidedActionItemChevronStyle=0x7f10015f;
-    public static final int Widget_Leanback_GuidedActionItemContainerStyle=0x7f100160;
-    public static final int Widget_Leanback_GuidedActionItemContentStyle=0x7f100161;
-    public static final int Widget_Leanback_GuidedActionItemDescriptionStyle=0x7f100162;
-    public static final int Widget_Leanback_GuidedActionItemIconStyle=0x7f100163;
-    public static final int Widget_Leanback_GuidedActionItemTitleStyle=0x7f100164;
-    public static final int Widget_Leanback_GuidedActionsContainerStyle=0x7f100165;
-    public static final int Widget_Leanback_GuidedActionsListStyle=0x7f100166;
-    public static final int Widget_Leanback_GuidedActionsSelectorStyle=0x7f100167;
-    public static final int Widget_Leanback_Header=0x7f100168;
-    public static final int Widget_Leanback_Headers=0x7f100169;
-    public static final int Widget_Leanback_Headers_VerticalGridView=0x7f10016a;
-    public static final int Widget_Leanback_ImageCardView=0x7f10016b;
-    public static final int Widget_Leanback_ImageCardView_BadgeStyle=0x7f10016c;
-    public static final int Widget_Leanback_ImageCardView_ContentStyle=0x7f10016d;
-    public static final int Widget_Leanback_ImageCardView_ImageStyle=0x7f10016e;
-    public static final int Widget_Leanback_ImageCardView_InfoAreaStyle=0x7f10016f;
-    public static final int Widget_Leanback_ImageCardView_TitleStyle=0x7f100170;
-    public static final int Widget_Leanback_ImageCardViewStyle=0x7f100171;
-    public static final int Widget_Leanback_PlaybackControlLabelStyle=0x7f100172;
-    public static final int Widget_Leanback_PlaybackControlsActionIconsStyle=0x7f100173;
-    public static final int Widget_Leanback_PlaybackControlsButtonStyle=0x7f100174;
-    public static final int Widget_Leanback_PlaybackControlsTimeStyle=0x7f100175;
-    public static final int Widget_Leanback_Row=0x7f100176;
-    public static final int Widget_Leanback_Row_Header=0x7f100177;
-    public static final int Widget_Leanback_Row_HeaderDock=0x7f100178;
-    public static final int Widget_Leanback_Row_HorizontalGridView=0x7f100179;
-    public static final int Widget_Leanback_Row_HoverCardDescription=0x7f10017a;
-    public static final int Widget_Leanback_Row_HoverCardTitle=0x7f10017b;
-    public static final int Widget_Leanback_Rows=0x7f10017c;
-    public static final int Widget_Leanback_Rows_VerticalGridView=0x7f10017d;
-    public static final int Widget_Leanback_SearchOrbViewStyle=0x7f10017e;
-    public static final int Widget_Leanback_Title=0x7f10017f;
-    public static final int Widget_Leanback_Title_Icon=0x7f100180;
-    public static final int Widget_Leanback_Title_Text=0x7f100181;
-    public static final int Widget_Leanback_TitleView=0x7f100182;
-    public static final int Widget_LeanbackBase=0x7f100183;
-    public static final int error_dialog=0x7f100184;
-    public static final int leak_canary_LeakCanary_Base=0x7f100185;
-    public static final int leak_canary_Theme_Transparent=0x7f100186;
-    public static final int progress_dialog=0x7f100187;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f100089;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f10008a;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f10008b;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f10008c;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f10008d;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f10008e;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f10008f;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f100090;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f100091;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f100092;
+    public static final int DetailsDescription=0x7f100093;
+    public static final int Platform_AppCompat=0x7f100094;
+    public static final int Platform_AppCompat_Light=0x7f100095;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f100096;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f100097;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f100098;
+    public static final int Platform_V11_AppCompat=0x7f100099;
+    public static final int Platform_V11_AppCompat_Light=0x7f10009a;
+    public static final int Platform_V14_AppCompat=0x7f10009b;
+    public static final int Platform_V14_AppCompat_Light=0x7f10009c;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f10009d;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f10009e;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f10009f;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f1000a0;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f1000a1;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f1000a2;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f1000a3;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f1000a4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f1000a5;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f1000a6;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f1000a7;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f1000a8;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f1000a9;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f1000aa;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f1000ab;
+    public static final int SearchKeys=0x7f1000ac;
+    public static final int TextAppearance_AppCompat=0x7f1000ad;
+    public static final int TextAppearance_AppCompat_Body1=0x7f1000ae;
+    public static final int TextAppearance_AppCompat_Body2=0x7f1000af;
+    public static final int TextAppearance_AppCompat_Button=0x7f1000b0;
+    public static final int TextAppearance_AppCompat_Caption=0x7f1000b1;
+    public static final int TextAppearance_AppCompat_Display1=0x7f1000b2;
+    public static final int TextAppearance_AppCompat_Display2=0x7f1000b3;
+    public static final int TextAppearance_AppCompat_Display3=0x7f1000b4;
+    public static final int TextAppearance_AppCompat_Display4=0x7f1000b5;
+    public static final int TextAppearance_AppCompat_Headline=0x7f1000b6;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f1000b7;
+    public static final int TextAppearance_AppCompat_Large=0x7f1000b8;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f1000b9;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f1000ba;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f1000bb;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f1000bc;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f1000bd;
+    public static final int TextAppearance_AppCompat_Medium=0x7f1000be;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f1000bf;
+    public static final int TextAppearance_AppCompat_Menu=0x7f1000c0;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f1000c1;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f1000c2;
+    public static final int TextAppearance_AppCompat_Small=0x7f1000c3;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f1000c4;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f1000c5;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f1000c6;
+    public static final int TextAppearance_AppCompat_Title=0x7f1000c7;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f1000c8;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f1000c9;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f1000ca;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f1000cb;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f1000cc;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f1000cd;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f1000ce;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f1000cf;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f1000d0;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f1000d1;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f1000d2;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f1000d3;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f1000d4;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f1000d5;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f1000d6;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f1000d7;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f1000d8;
+    public static final int TextAppearance_Leanback=0x7f1000d9;
+    public static final int TextAppearance_Leanback_DetailsActionButton=0x7f1000da;
+    public static final int TextAppearance_Leanback_DetailsDescriptionBody=0x7f1000db;
+    public static final int TextAppearance_Leanback_DetailsDescriptionSubtitle=0x7f1000dc;
+    public static final int TextAppearance_Leanback_DetailsDescriptionTitle=0x7f1000dd;
+    public static final int TextAppearance_Leanback_ErrorMessage=0x7f1000de;
+    public static final int TextAppearance_Leanback_Header=0x7f1000df;
+    public static final int TextAppearance_Leanback_PlaybackControlLabel=0x7f1000e0;
+    public static final int TextAppearance_Leanback_PlaybackControlsTime=0x7f1000e1;
+    public static final int TextAppearance_Leanback_Row_Header=0x7f1000e2;
+    public static final int TextAppearance_Leanback_Row_HoverCardDescription=0x7f1000e3;
+    public static final int TextAppearance_Leanback_Row_HoverCardTitle=0x7f1000e4;
+    public static final int TextAppearance_Leanback_SearchTextEdit=0x7f1000e5;
+    public static final int TextAppearance_Leanback_Title=0x7f1000e6;
+    public static final int TextAppearance_LeanbackBase=0x7f1000e7;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f1000e8;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f1000e9;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f1000ea;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f1000eb;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f1000ec;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f1000ed;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f1000ee;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f1000ef;
+    public static final int Theme_AppCompat=0x7f1000f0;
+    public static final int Theme_AppCompat_CompactMenu=0x7f1000f1;
+    public static final int Theme_AppCompat_DayNight=0x7f1000f2;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f1000f3;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f1000f4;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f1000f5;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f1000f6;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f1000f7;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f1000f8;
+    public static final int Theme_AppCompat_Dialog=0x7f1000f9;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f1000fa;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f1000fb;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f1000fc;
+    public static final int Theme_AppCompat_Light=0x7f1000fd;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f1000fe;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f1000ff;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f100100;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f100101;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f100102;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f100103;
+    public static final int Theme_AppCompat_NoActionBar=0x7f100104;
+    public static final int Theme_Leanback=0x7f100105;
+    public static final int Theme_Leanback_Browse=0x7f100106;
+    public static final int Theme_Leanback_Details=0x7f100107;
+    public static final int Theme_Leanback_Details_NoSharedElementTransition=0x7f100108;
+    public static final int Theme_Leanback_GuidedStep=0x7f100109;
+    public static final int Theme_Leanback_VerticalGrid=0x7f10010a;
+    public static final int Theme_LeanbackBase=0x7f10010b;
+    public static final int ThemeOverlay_AppCompat=0x7f10010c;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f10010d;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f10010e;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f10010f;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f100110;
+    public static final int Widget_AppCompat_ActionBar=0x7f100111;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f100112;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f100113;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f100114;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f100115;
+    public static final int Widget_AppCompat_ActionButton=0x7f100116;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f100117;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f100118;
+    public static final int Widget_AppCompat_ActionMode=0x7f100119;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f10011a;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f10011b;
+    public static final int Widget_AppCompat_Button=0x7f10011c;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f10011d;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f10011e;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f10011f;
+    public static final int Widget_AppCompat_Button_Colored=0x7f100120;
+    public static final int Widget_AppCompat_Button_Small=0x7f100121;
+    public static final int Widget_AppCompat_ButtonBar=0x7f100122;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f100123;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f100124;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f100125;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f100126;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f100127;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f100128;
+    public static final int Widget_AppCompat_EditText=0x7f100129;
+    public static final int Widget_AppCompat_ImageButton=0x7f10012a;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f10012b;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f10012c;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f10012d;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f10012e;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f10012f;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f100130;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f100131;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f100132;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f100133;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f100134;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f100135;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f100136;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f100137;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f100138;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f100139;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f10013a;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f10013b;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f10013c;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f10013d;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f10013e;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f10013f;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f100140;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f100141;
+    public static final int Widget_AppCompat_ListView=0x7f100142;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f100143;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f100144;
+    public static final int Widget_AppCompat_PopupMenu=0x7f100145;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f100146;
+    public static final int Widget_AppCompat_PopupWindow=0x7f100147;
+    public static final int Widget_AppCompat_ProgressBar=0x7f100148;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f100149;
+    public static final int Widget_AppCompat_RatingBar=0x7f10014a;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f10014b;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f10014c;
+    public static final int Widget_AppCompat_SearchView=0x7f10014d;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f10014e;
+    public static final int Widget_AppCompat_SeekBar=0x7f10014f;
+    public static final int Widget_AppCompat_Spinner=0x7f100150;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f100151;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f100152;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f100153;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f100154;
+    public static final int Widget_AppCompat_Toolbar=0x7f100155;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f100156;
+    public static final int Widget_Example_Leanback_Rows_VerticalGridView=0x7f100157;
+    public static final int Widget_Example_Leanback_Title_Text=0x7f100158;
+    public static final int Widget_Leanback=0x7f100159;
+    public static final int Widget_Leanback_BaseCardViewStyle=0x7f10015a;
+    public static final int Widget_Leanback_DetailsActionButtonStyle=0x7f10015b;
+    public static final int Widget_Leanback_DetailsActionButtonStyle_Custom=0x7f10015c;
+    public static final int Widget_Leanback_DetailsActionButtonStyleBase=0x7f10015d;
+    public static final int Widget_Leanback_DetailsDescriptionBodyStyle=0x7f10015e;
+    public static final int Widget_Leanback_DetailsDescriptionSubtitleStyle=0x7f10015f;
+    public static final int Widget_Leanback_DetailsDescriptionTitleStyle=0x7f100160;
+    public static final int Widget_Leanback_ErrorMessageStyle=0x7f100161;
+    public static final int Widget_Leanback_GridItems=0x7f100162;
+    public static final int Widget_Leanback_GridItems_VerticalGridView=0x7f100163;
+    public static final int Widget_Leanback_GuidanceBreadcrumbStyle=0x7f100164;
+    public static final int Widget_Leanback_GuidanceContainerStyle=0x7f100165;
+    public static final int Widget_Leanback_GuidanceDescriptionStyle=0x7f100166;
+    public static final int Widget_Leanback_GuidanceIconStyle=0x7f100167;
+    public static final int Widget_Leanback_GuidanceTitleStyle=0x7f100168;
+    public static final int Widget_Leanback_GuidedActionItemCheckmarkStyle=0x7f100169;
+    public static final int Widget_Leanback_GuidedActionItemChevronStyle=0x7f10016a;
+    public static final int Widget_Leanback_GuidedActionItemContainerStyle=0x7f10016b;
+    public static final int Widget_Leanback_GuidedActionItemContentStyle=0x7f10016c;
+    public static final int Widget_Leanback_GuidedActionItemDescriptionStyle=0x7f10016d;
+    public static final int Widget_Leanback_GuidedActionItemIconStyle=0x7f10016e;
+    public static final int Widget_Leanback_GuidedActionItemTitleStyle=0x7f10016f;
+    public static final int Widget_Leanback_GuidedActionsContainerStyle=0x7f100170;
+    public static final int Widget_Leanback_GuidedActionsListStyle=0x7f100171;
+    public static final int Widget_Leanback_GuidedActionsSelectorStyle=0x7f100172;
+    public static final int Widget_Leanback_Header=0x7f100173;
+    public static final int Widget_Leanback_Headers=0x7f100174;
+    public static final int Widget_Leanback_Headers_VerticalGridView=0x7f100175;
+    public static final int Widget_Leanback_ImageCardView=0x7f100176;
+    public static final int Widget_Leanback_ImageCardView_BadgeStyle=0x7f100177;
+    public static final int Widget_Leanback_ImageCardView_ContentStyle=0x7f100178;
+    public static final int Widget_Leanback_ImageCardView_ImageStyle=0x7f100179;
+    public static final int Widget_Leanback_ImageCardView_InfoAreaStyle=0x7f10017a;
+    public static final int Widget_Leanback_ImageCardView_TitleStyle=0x7f10017b;
+    public static final int Widget_Leanback_ImageCardViewStyle=0x7f10017c;
+    public static final int Widget_Leanback_PlaybackControlLabelStyle=0x7f10017d;
+    public static final int Widget_Leanback_PlaybackControlsActionIconsStyle=0x7f10017e;
+    public static final int Widget_Leanback_PlaybackControlsButtonStyle=0x7f10017f;
+    public static final int Widget_Leanback_PlaybackControlsTimeStyle=0x7f100180;
+    public static final int Widget_Leanback_Row=0x7f100181;
+    public static final int Widget_Leanback_Row_Header=0x7f100182;
+    public static final int Widget_Leanback_Row_HeaderDock=0x7f100183;
+    public static final int Widget_Leanback_Row_HorizontalGridView=0x7f100184;
+    public static final int Widget_Leanback_Row_HoverCardDescription=0x7f100185;
+    public static final int Widget_Leanback_Row_HoverCardTitle=0x7f100186;
+    public static final int Widget_Leanback_Rows=0x7f100187;
+    public static final int Widget_Leanback_Rows_VerticalGridView=0x7f100188;
+    public static final int Widget_Leanback_SearchOrbViewStyle=0x7f100189;
+    public static final int Widget_Leanback_Title=0x7f10018a;
+    public static final int Widget_Leanback_Title_Icon=0x7f10018b;
+    public static final int Widget_Leanback_Title_Text=0x7f10018c;
+    public static final int Widget_Leanback_TitleView=0x7f10018d;
+    public static final int Widget_LeanbackBase=0x7f10018e;
+    public static final int error_dialog=0x7f10018f;
+    public static final int leak_canary_LeakCanary_Base=0x7f100190;
+    public static final int leak_canary_Theme_Transparent=0x7f100191;
+    public static final int progress_dialog=0x7f100192;
   }
   public static final class styleable {
     /**
@@ -4351,8 +4394,8 @@ public final class R {
       0x7f03006f, 0x7f030070, 0x7f03007b, 0x7f0300aa, 
       0x7f0300ab, 0x7f0300ad, 0x7f0300ae, 0x7f0300b0, 
       0x7f0300b4, 0x7f0300b9, 0x7f0300cf, 0x7f0300d7, 
-      0x7f0300ec, 0x7f0300ef, 0x7f0300f0, 0x7f030122, 
-      0x7f030125, 0x7f03013b, 0x7f030143
+      0x7f0300ec, 0x7f0300ef, 0x7f0300f0, 0x7f030125, 
+      0x7f030128, 0x7f03013e, 0x7f030146
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#background}
@@ -4797,7 +4840,7 @@ public final class R {
      */
     public static final int[] ActionMode={
       0x7f03002b, 0x7f03002c, 0x7f03004f, 0x7f0300aa, 
-      0x7f030125, 0x7f030143
+      0x7f030128, 0x7f030146
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#background}
@@ -4936,7 +4979,7 @@ public final class R {
      */
     public static final int[] AlertDialog={
       0x010100f2, 0x7f030044, 0x7f0300c7, 0x7f0300c8, 
-      0x7f0300d4, 0x7f030117
+      0x7f0300d4, 0x7f030119
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -5011,6 +5054,49 @@ public final class R {
      */
     public static final int AlertDialog_singleChoiceItemLayout=5;
     /**
+     * Attributes that can be used with a AppCompatImageView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.fireappbuilder.android.calypso:srcCompat}</code></td><td></td></tr>
+     * </table>
+     * @see #AppCompatImageView_android_src
+     * @see #AppCompatImageView_srcCompat
+     */
+    public static final int[] AppCompatImageView={
+      0x01010119, 0x7f030121
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#src}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:src
+     */
+    public static final int AppCompatImageView_android_src=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#srcCompat}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:srcCompat
+     */
+    public static final int AppCompatImageView_srcCompat=1;
+    /**
      * Attributes that can be used with a AppCompatTextView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -5024,7 +5110,7 @@ public final class R {
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-      0x01010034, 0x7f03012b
+      0x01010034, 0x7f03012e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -5052,6 +5138,1652 @@ public final class R {
      * @attr name com.fireappbuilder.android.calypso:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
+    /**
+     * Attributes that can be used with a AppCompatTheme.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.fireappbuilder.android.calypso:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.fireappbuilder.android.calypso:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.fireappbuilder.android.calypso:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.fireappbuilder.android.calypso:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.fireappbuilder.android.calypso:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.fireappbuilder.android.calypso:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.fireappbuilder.android.calypso:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.fireappbuilder.android.calypso:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.fireappbuilder.android.calypso:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.fireappbuilder.android.calypso:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.fireappbuilder.android.calypso:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.fireappbuilder.android.calypso:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.fireappbuilder.android.calypso:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.fireappbuilder.android.calypso:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.fireappbuilder.android.calypso:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.fireappbuilder.android.calypso:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.fireappbuilder.android.calypso:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.fireappbuilder.android.calypso:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.fireappbuilder.android.calypso:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.fireappbuilder.android.calypso:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.fireappbuilder.android.calypso:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.fireappbuilder.android.calypso:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.fireappbuilder.android.calypso:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.fireappbuilder.android.calypso:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.fireappbuilder.android.calypso:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.fireappbuilder.android.calypso:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.fireappbuilder.android.calypso:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.fireappbuilder.android.calypso:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.fireappbuilder.android.calypso:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.fireappbuilder.android.calypso:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.fireappbuilder.android.calypso:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.fireappbuilder.android.calypso:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.fireappbuilder.android.calypso:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.fireappbuilder.android.calypso:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.fireappbuilder.android.calypso:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.fireappbuilder.android.calypso:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.fireappbuilder.android.calypso:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.fireappbuilder.android.calypso:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.fireappbuilder.android.calypso:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.fireappbuilder.android.calypso:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.fireappbuilder.android.calypso:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.fireappbuilder.android.calypso:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.fireappbuilder.android.calypso:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.fireappbuilder.android.calypso:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.fireappbuilder.android.calypso:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.fireappbuilder.android.calypso:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.fireappbuilder.android.calypso:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.fireappbuilder.android.calypso:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.fireappbuilder.android.calypso:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.fireappbuilder.android.calypso:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.fireappbuilder.android.calypso:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.fireappbuilder.android.calypso:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.fireappbuilder.android.calypso:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.fireappbuilder.android.calypso:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.fireappbuilder.android.calypso:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.fireappbuilder.android.calypso:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.fireappbuilder.android.calypso:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.fireappbuilder.android.calypso:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.fireappbuilder.android.calypso:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.fireappbuilder.android.calypso:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.fireappbuilder.android.calypso:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.fireappbuilder.android.calypso:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.fireappbuilder.android.calypso:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.fireappbuilder.android.calypso:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.fireappbuilder.android.calypso:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.fireappbuilder.android.calypso:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.fireappbuilder.android.calypso:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.fireappbuilder.android.calypso:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.fireappbuilder.android.calypso:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.fireappbuilder.android.calypso:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.fireappbuilder.android.calypso:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.fireappbuilder.android.calypso:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.fireappbuilder.android.calypso:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.fireappbuilder.android.calypso:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.fireappbuilder.android.calypso:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.fireappbuilder.android.calypso:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.fireappbuilder.android.calypso:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.fireappbuilder.android.calypso:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.fireappbuilder.android.calypso:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.fireappbuilder.android.calypso:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.fireappbuilder.android.calypso:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.fireappbuilder.android.calypso:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.fireappbuilder.android.calypso:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.fireappbuilder.android.calypso:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.fireappbuilder.android.calypso:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.fireappbuilder.android.calypso:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.fireappbuilder.android.calypso:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.fireappbuilder.android.calypso:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.fireappbuilder.android.calypso:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.fireappbuilder.android.calypso:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.fireappbuilder.android.calypso:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.fireappbuilder.android.calypso:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.fireappbuilder.android.calypso:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.fireappbuilder.android.calypso:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.fireappbuilder.android.calypso:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.fireappbuilder.android.calypso:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.fireappbuilder.android.calypso:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.fireappbuilder.android.calypso:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.fireappbuilder.android.calypso:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.fireappbuilder.android.calypso:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.fireappbuilder.android.calypso:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.fireappbuilder.android.calypso:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.fireappbuilder.android.calypso:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.fireappbuilder.android.calypso:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.fireappbuilder.android.calypso:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.fireappbuilder.android.calypso:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.fireappbuilder.android.calypso:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.fireappbuilder.android.calypso:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.fireappbuilder.android.calypso:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.fireappbuilder.android.calypso:windowNoTitle}</code></td><td></td></tr>
+     * </table>
+     * @see #AppCompatTheme_android_windowIsFloating
+     * @see #AppCompatTheme_android_windowAnimationStyle
+     * @see #AppCompatTheme_actionBarDivider
+     * @see #AppCompatTheme_actionBarItemBackground
+     * @see #AppCompatTheme_actionBarPopupTheme
+     * @see #AppCompatTheme_actionBarSize
+     * @see #AppCompatTheme_actionBarSplitStyle
+     * @see #AppCompatTheme_actionBarStyle
+     * @see #AppCompatTheme_actionBarTabBarStyle
+     * @see #AppCompatTheme_actionBarTabStyle
+     * @see #AppCompatTheme_actionBarTabTextStyle
+     * @see #AppCompatTheme_actionBarTheme
+     * @see #AppCompatTheme_actionBarWidgetTheme
+     * @see #AppCompatTheme_actionButtonStyle
+     * @see #AppCompatTheme_actionDropDownStyle
+     * @see #AppCompatTheme_actionMenuTextAppearance
+     * @see #AppCompatTheme_actionMenuTextColor
+     * @see #AppCompatTheme_actionModeBackground
+     * @see #AppCompatTheme_actionModeCloseButtonStyle
+     * @see #AppCompatTheme_actionModeCloseDrawable
+     * @see #AppCompatTheme_actionModeCopyDrawable
+     * @see #AppCompatTheme_actionModeCutDrawable
+     * @see #AppCompatTheme_actionModeFindDrawable
+     * @see #AppCompatTheme_actionModePasteDrawable
+     * @see #AppCompatTheme_actionModePopupWindowStyle
+     * @see #AppCompatTheme_actionModeSelectAllDrawable
+     * @see #AppCompatTheme_actionModeShareDrawable
+     * @see #AppCompatTheme_actionModeSplitBackground
+     * @see #AppCompatTheme_actionModeStyle
+     * @see #AppCompatTheme_actionModeWebSearchDrawable
+     * @see #AppCompatTheme_actionOverflowButtonStyle
+     * @see #AppCompatTheme_actionOverflowMenuStyle
+     * @see #AppCompatTheme_activityChooserViewStyle
+     * @see #AppCompatTheme_alertDialogButtonGroupStyle
+     * @see #AppCompatTheme_alertDialogCenterButtons
+     * @see #AppCompatTheme_alertDialogStyle
+     * @see #AppCompatTheme_alertDialogTheme
+     * @see #AppCompatTheme_autoCompleteTextViewStyle
+     * @see #AppCompatTheme_borderlessButtonStyle
+     * @see #AppCompatTheme_buttonBarButtonStyle
+     * @see #AppCompatTheme_buttonBarNegativeButtonStyle
+     * @see #AppCompatTheme_buttonBarNeutralButtonStyle
+     * @see #AppCompatTheme_buttonBarPositiveButtonStyle
+     * @see #AppCompatTheme_buttonBarStyle
+     * @see #AppCompatTheme_buttonStyle
+     * @see #AppCompatTheme_buttonStyleSmall
+     * @see #AppCompatTheme_checkboxStyle
+     * @see #AppCompatTheme_checkedTextViewStyle
+     * @see #AppCompatTheme_colorAccent
+     * @see #AppCompatTheme_colorButtonNormal
+     * @see #AppCompatTheme_colorControlActivated
+     * @see #AppCompatTheme_colorControlHighlight
+     * @see #AppCompatTheme_colorControlNormal
+     * @see #AppCompatTheme_colorPrimary
+     * @see #AppCompatTheme_colorPrimaryDark
+     * @see #AppCompatTheme_colorSwitchThumbNormal
+     * @see #AppCompatTheme_controlBackground
+     * @see #AppCompatTheme_dialogPreferredPadding
+     * @see #AppCompatTheme_dialogTheme
+     * @see #AppCompatTheme_dividerHorizontal
+     * @see #AppCompatTheme_dividerVertical
+     * @see #AppCompatTheme_dropDownListViewStyle
+     * @see #AppCompatTheme_dropdownListPreferredItemHeight
+     * @see #AppCompatTheme_editTextBackground
+     * @see #AppCompatTheme_editTextColor
+     * @see #AppCompatTheme_editTextStyle
+     * @see #AppCompatTheme_homeAsUpIndicator
+     * @see #AppCompatTheme_imageButtonStyle
+     * @see #AppCompatTheme_listChoiceBackgroundIndicator
+     * @see #AppCompatTheme_listDividerAlertDialog
+     * @see #AppCompatTheme_listPopupWindowStyle
+     * @see #AppCompatTheme_listPreferredItemHeight
+     * @see #AppCompatTheme_listPreferredItemHeightLarge
+     * @see #AppCompatTheme_listPreferredItemHeightSmall
+     * @see #AppCompatTheme_listPreferredItemPaddingLeft
+     * @see #AppCompatTheme_listPreferredItemPaddingRight
+     * @see #AppCompatTheme_panelBackground
+     * @see #AppCompatTheme_panelMenuListTheme
+     * @see #AppCompatTheme_panelMenuListWidth
+     * @see #AppCompatTheme_popupMenuStyle
+     * @see #AppCompatTheme_popupWindowStyle
+     * @see #AppCompatTheme_radioButtonStyle
+     * @see #AppCompatTheme_ratingBarStyle
+     * @see #AppCompatTheme_ratingBarStyleIndicator
+     * @see #AppCompatTheme_ratingBarStyleSmall
+     * @see #AppCompatTheme_searchViewStyle
+     * @see #AppCompatTheme_seekBarStyle
+     * @see #AppCompatTheme_selectableItemBackground
+     * @see #AppCompatTheme_selectableItemBackgroundBorderless
+     * @see #AppCompatTheme_spinnerDropDownItemStyle
+     * @see #AppCompatTheme_spinnerStyle
+     * @see #AppCompatTheme_switchStyle
+     * @see #AppCompatTheme_textAppearanceLargePopupMenu
+     * @see #AppCompatTheme_textAppearanceListItem
+     * @see #AppCompatTheme_textAppearanceListItemSmall
+     * @see #AppCompatTheme_textAppearanceSearchResultSubtitle
+     * @see #AppCompatTheme_textAppearanceSearchResultTitle
+     * @see #AppCompatTheme_textAppearanceSmallPopupMenu
+     * @see #AppCompatTheme_textColorAlertDialogListItem
+     * @see #AppCompatTheme_textColorSearchUrl
+     * @see #AppCompatTheme_toolbarNavigationButtonStyle
+     * @see #AppCompatTheme_toolbarStyle
+     * @see #AppCompatTheme_windowActionBar
+     * @see #AppCompatTheme_windowActionBarOverlay
+     * @see #AppCompatTheme_windowActionModeOverlay
+     * @see #AppCompatTheme_windowFixedHeightMajor
+     * @see #AppCompatTheme_windowFixedHeightMinor
+     * @see #AppCompatTheme_windowFixedWidthMajor
+     * @see #AppCompatTheme_windowFixedWidthMinor
+     * @see #AppCompatTheme_windowMinWidthMajor
+     * @see #AppCompatTheme_windowMinWidthMinor
+     * @see #AppCompatTheme_windowNoTitle
+     */
+    public static final int[] AppCompatTheme={
+      0x01010057, 0x010100ae, 0x7f030000, 0x7f030001, 
+      0x7f030002, 0x7f030003, 0x7f030004, 0x7f030005, 
+      0x7f030006, 0x7f030007, 0x7f030008, 0x7f030009, 
+      0x7f03000a, 0x7f03000b, 0x7f03000c, 0x7f03000e, 
+      0x7f03000f, 0x7f030010, 0x7f030011, 0x7f030012, 
+      0x7f030013, 0x7f030014, 0x7f030015, 0x7f030016, 
+      0x7f030017, 0x7f030018, 0x7f030019, 0x7f03001a, 
+      0x7f03001b, 0x7f03001c, 0x7f03001d, 0x7f03001e, 
+      0x7f030022, 0x7f030023, 0x7f030024, 0x7f030025, 
+      0x7f030026, 0x7f03002a, 0x7f030032, 0x7f03003f, 
+      0x7f030040, 0x7f030041, 0x7f030042, 0x7f030043, 
+      0x7f030045, 0x7f030046, 0x7f03004c, 0x7f03004d, 
+      0x7f030054, 0x7f030055, 0x7f030056, 0x7f030057, 
+      0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 
+      0x7f030062, 0x7f03006d, 0x7f03006e, 0x7f030071, 
+      0x7f030073, 0x7f030076, 0x7f030077, 0x7f030078, 
+      0x7f030079, 0x7f03007a, 0x7f0300ad, 0x7f0300b2, 
+      0x7f0300c5, 0x7f0300c6, 0x7f0300c9, 0x7f0300ca, 
+      0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 
+      0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300eb, 
+      0x7f0300ed, 0x7f0300f3, 0x7f0300f4, 0x7f0300f5, 
+      0x7f0300f6, 0x7f03010f, 0x7f030110, 0x7f030111, 
+      0x7f030112, 0x7f03011e, 0x7f03011f, 0x7f03012c, 
+      0x7f03012f, 0x7f030130, 0x7f030131, 0x7f030132, 
+      0x7f030133, 0x7f030134, 0x7f030135, 0x7f030136, 
+      0x7f030147, 0x7f030148, 0x7f03014c, 0x7f03014d, 
+      0x7f03014e, 0x7f03014f, 0x7f030150, 0x7f030151, 
+      0x7f030152, 0x7f030153, 0x7f030154, 0x7f030155
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:windowIsFloating
+     */
+    public static final int AppCompatTheme_android_windowIsFloating=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int AppCompatTheme_android_windowAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarDivider
+     */
+    public static final int AppCompatTheme_actionBarDivider=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarItemBackground
+     */
+    public static final int AppCompatTheme_actionBarItemBackground=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarPopupTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarPopupTheme
+     */
+    public static final int AppCompatTheme_actionBarPopupTheme=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarSize}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarSize
+     */
+    public static final int AppCompatTheme_actionBarSize=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarSplitStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarSplitStyle
+     */
+    public static final int AppCompatTheme_actionBarSplitStyle=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarStyle
+     */
+    public static final int AppCompatTheme_actionBarStyle=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTabBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarTabBarStyle
+     */
+    public static final int AppCompatTheme_actionBarTabBarStyle=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTabStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarTabStyle
+     */
+    public static final int AppCompatTheme_actionBarTabStyle=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTabTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarTabTextStyle
+     */
+    public static final int AppCompatTheme_actionBarTabTextStyle=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarTheme
+     */
+    public static final int AppCompatTheme_actionBarTheme=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarWidgetTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionBarWidgetTheme
+     */
+    public static final int AppCompatTheme_actionBarWidgetTheme=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionButtonStyle
+     */
+    public static final int AppCompatTheme_actionButtonStyle=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionDropDownStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionDropDownStyle
+     */
+    public static final int AppCompatTheme_actionDropDownStyle=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionMenuTextAppearance}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionMenuTextAppearance
+     */
+    public static final int AppCompatTheme_actionMenuTextAppearance=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionMenuTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionMenuTextColor
+     */
+    public static final int AppCompatTheme_actionMenuTextColor=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeBackground
+     */
+    public static final int AppCompatTheme_actionModeBackground=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCloseButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeCloseButtonStyle
+     */
+    public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCloseDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeCloseDrawable
+     */
+    public static final int AppCompatTheme_actionModeCloseDrawable=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCopyDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeCopyDrawable
+     */
+    public static final int AppCompatTheme_actionModeCopyDrawable=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCutDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeCutDrawable
+     */
+    public static final int AppCompatTheme_actionModeCutDrawable=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeFindDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeFindDrawable
+     */
+    public static final int AppCompatTheme_actionModeFindDrawable=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModePasteDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModePasteDrawable
+     */
+    public static final int AppCompatTheme_actionModePasteDrawable=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModePopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModePopupWindowStyle
+     */
+    public static final int AppCompatTheme_actionModePopupWindowStyle=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeSelectAllDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeSelectAllDrawable
+     */
+    public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeShareDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeShareDrawable
+     */
+    public static final int AppCompatTheme_actionModeShareDrawable=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeSplitBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeSplitBackground
+     */
+    public static final int AppCompatTheme_actionModeSplitBackground=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeStyle
+     */
+    public static final int AppCompatTheme_actionModeStyle=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeWebSearchDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionModeWebSearchDrawable
+     */
+    public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionOverflowButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionOverflowButtonStyle
+     */
+    public static final int AppCompatTheme_actionOverflowButtonStyle=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionOverflowMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:actionOverflowMenuStyle
+     */
+    public static final int AppCompatTheme_actionOverflowMenuStyle=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#activityChooserViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:activityChooserViewStyle
+     */
+    public static final int AppCompatTheme_activityChooserViewStyle=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogButtonGroupStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:alertDialogButtonGroupStyle
+     */
+    public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogCenterButtons}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:alertDialogCenterButtons
+     */
+    public static final int AppCompatTheme_alertDialogCenterButtons=34;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:alertDialogStyle
+     */
+    public static final int AppCompatTheme_alertDialogStyle=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:alertDialogTheme
+     */
+    public static final int AppCompatTheme_alertDialogTheme=36;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#autoCompleteTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:autoCompleteTextViewStyle
+     */
+    public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#borderlessButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:borderlessButtonStyle
+     */
+    public static final int AppCompatTheme_borderlessButtonStyle=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:buttonBarButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarButtonStyle=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarNegativeButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:buttonBarNegativeButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarNeutralButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:buttonBarNeutralButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarPositiveButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:buttonBarPositiveButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:buttonBarStyle
+     */
+    public static final int AppCompatTheme_buttonBarStyle=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:buttonStyle
+     */
+    public static final int AppCompatTheme_buttonStyle=44;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:buttonStyleSmall
+     */
+    public static final int AppCompatTheme_buttonStyleSmall=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#checkboxStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:checkboxStyle
+     */
+    public static final int AppCompatTheme_checkboxStyle=46;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#checkedTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:checkedTextViewStyle
+     */
+    public static final int AppCompatTheme_checkedTextViewStyle=47;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorAccent
+     */
+    public static final int AppCompatTheme_colorAccent=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorButtonNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorButtonNormal
+     */
+    public static final int AppCompatTheme_colorButtonNormal=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorControlActivated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorControlActivated
+     */
+    public static final int AppCompatTheme_colorControlActivated=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorControlHighlight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorControlHighlight
+     */
+    public static final int AppCompatTheme_colorControlHighlight=51;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorControlNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorControlNormal
+     */
+    public static final int AppCompatTheme_colorControlNormal=52;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorPrimary
+     */
+    public static final int AppCompatTheme_colorPrimary=53;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorPrimaryDark
+     */
+    public static final int AppCompatTheme_colorPrimaryDark=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:colorSwitchThumbNormal
+     */
+    public static final int AppCompatTheme_colorSwitchThumbNormal=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:controlBackground
+     */
+    public static final int AppCompatTheme_controlBackground=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:dialogPreferredPadding
+     */
+    public static final int AppCompatTheme_dialogPreferredPadding=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:dialogTheme
+     */
+    public static final int AppCompatTheme_dialogTheme=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:dividerHorizontal
+     */
+    public static final int AppCompatTheme_dividerHorizontal=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:dividerVertical
+     */
+    public static final int AppCompatTheme_dividerVertical=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:dropDownListViewStyle
+     */
+    public static final int AppCompatTheme_dropDownListViewStyle=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:dropdownListPreferredItemHeight
+     */
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:editTextBackground
+     */
+    public static final int AppCompatTheme_editTextBackground=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#editTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:editTextColor
+     */
+    public static final int AppCompatTheme_editTextColor=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:editTextStyle
+     */
+    public static final int AppCompatTheme_editTextStyle=65;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:homeAsUpIndicator
+     */
+    public static final int AppCompatTheme_homeAsUpIndicator=66;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:imageButtonStyle
+     */
+    public static final int AppCompatTheme_imageButtonStyle=67;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:listChoiceBackgroundIndicator
+     */
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=68;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:listDividerAlertDialog
+     */
+    public static final int AppCompatTheme_listDividerAlertDialog=69;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:listPopupWindowStyle
+     */
+    public static final int AppCompatTheme_listPopupWindowStyle=70;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:listPreferredItemHeight
+     */
+    public static final int AppCompatTheme_listPreferredItemHeight=71;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemHeightLarge}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:listPreferredItemHeightLarge
+     */
+    public static final int AppCompatTheme_listPreferredItemHeightLarge=72;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemHeightSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:listPreferredItemHeightSmall
+     */
+    public static final int AppCompatTheme_listPreferredItemHeightSmall=73;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemPaddingLeft}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:listPreferredItemPaddingLeft
+     */
+    public static final int AppCompatTheme_listPreferredItemPaddingLeft=74;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemPaddingRight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:listPreferredItemPaddingRight
+     */
+    public static final int AppCompatTheme_listPreferredItemPaddingRight=75;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:panelBackground
+     */
+    public static final int AppCompatTheme_panelBackground=76;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:panelMenuListTheme
+     */
+    public static final int AppCompatTheme_panelMenuListTheme=77;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#panelMenuListWidth}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.fireappbuilder.android.calypso:panelMenuListWidth
+     */
+    public static final int AppCompatTheme_panelMenuListWidth=78;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#popupMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:popupMenuStyle
+     */
+    public static final int AppCompatTheme_popupMenuStyle=79;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#popupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:popupWindowStyle
+     */
+    public static final int AppCompatTheme_popupWindowStyle=80;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#radioButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:radioButtonStyle
+     */
+    public static final int AppCompatTheme_radioButtonStyle=81;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#ratingBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:ratingBarStyle
+     */
+    public static final int AppCompatTheme_ratingBarStyle=82;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#ratingBarStyleIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:ratingBarStyleIndicator
+     */
+    public static final int AppCompatTheme_ratingBarStyleIndicator=83;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#ratingBarStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:ratingBarStyleSmall
+     */
+    public static final int AppCompatTheme_ratingBarStyleSmall=84;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#searchViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:searchViewStyle
+     */
+    public static final int AppCompatTheme_searchViewStyle=85;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#seekBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:seekBarStyle
+     */
+    public static final int AppCompatTheme_seekBarStyle=86;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:selectableItemBackground
+     */
+    public static final int AppCompatTheme_selectableItemBackground=87;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#selectableItemBackgroundBorderless}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:selectableItemBackgroundBorderless
+     */
+    public static final int AppCompatTheme_selectableItemBackgroundBorderless=88;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#spinnerDropDownItemStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:spinnerDropDownItemStyle
+     */
+    public static final int AppCompatTheme_spinnerDropDownItemStyle=89;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#spinnerStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:spinnerStyle
+     */
+    public static final int AppCompatTheme_spinnerStyle=90;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#switchStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:switchStyle
+     */
+    public static final int AppCompatTheme_switchStyle=91;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceLargePopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textAppearanceLargePopupMenu
+     */
+    public static final int AppCompatTheme_textAppearanceLargePopupMenu=92;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textAppearanceListItem
+     */
+    public static final int AppCompatTheme_textAppearanceListItem=93;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceListItemSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textAppearanceListItemSmall
+     */
+    public static final int AppCompatTheme_textAppearanceListItemSmall=94;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceSearchResultSubtitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textAppearanceSearchResultSubtitle
+     */
+    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=95;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceSearchResultTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textAppearanceSearchResultTitle
+     */
+    public static final int AppCompatTheme_textAppearanceSearchResultTitle=96;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceSmallPopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textAppearanceSmallPopupMenu
+     */
+    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=97;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textColorAlertDialogListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textColorAlertDialogListItem
+     */
+    public static final int AppCompatTheme_textColorAlertDialogListItem=98;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textColorSearchUrl}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:textColorSearchUrl
+     */
+    public static final int AppCompatTheme_textColorSearchUrl=99;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#toolbarNavigationButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:toolbarNavigationButtonStyle
+     */
+    public static final int AppCompatTheme_toolbarNavigationButtonStyle=100;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#toolbarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:toolbarStyle
+     */
+    public static final int AppCompatTheme_toolbarStyle=101;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowActionBar}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowActionBar
+     */
+    public static final int AppCompatTheme_windowActionBar=102;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowActionBarOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowActionBarOverlay
+     */
+    public static final int AppCompatTheme_windowActionBarOverlay=103;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowActionModeOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowActionModeOverlay
+     */
+    public static final int AppCompatTheme_windowActionModeOverlay=104;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedHeightMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowFixedHeightMajor
+     */
+    public static final int AppCompatTheme_windowFixedHeightMajor=105;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedHeightMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowFixedHeightMinor
+     */
+    public static final int AppCompatTheme_windowFixedHeightMinor=106;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowFixedWidthMajor
+     */
+    public static final int AppCompatTheme_windowFixedWidthMajor=107;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowFixedWidthMinor
+     */
+    public static final int AppCompatTheme_windowFixedWidthMinor=108;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowMinWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowMinWidthMajor
+     */
+    public static final int AppCompatTheme_windowMinWidthMajor=109;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowMinWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowMinWidthMinor
+     */
+    public static final int AppCompatTheme_windowMinWidthMinor=110;
+    /**
+     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowNoTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.fireappbuilder.android.calypso:windowNoTitle
+     */
+    public static final int AppCompatTheme_windowNoTitle=111;
     /**
      * Attributes that can be used with a ButtonBarLayout.
      * <p>Includes the following attributes:</p>
@@ -5164,7 +6896,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
       0x7f030028, 0x7f030029, 0x7f030030, 0x7f030053, 
-      0x7f030074, 0x7f030083, 0x7f03011b, 0x7f030135
+      0x7f030074, 0x7f030083, 0x7f03011d, 0x7f030138
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#arrowHeadLength}
@@ -5281,7 +7013,7 @@ public final class R {
      * @see #EllipsizedTextView_readDialogWidth
      */
     public static final int[] EllipsizedTextView={
-      0x7f0300a7, 0x7f0300f5, 0x7f0300f6
+      0x7f0300a7, 0x7f0300f7, 0x7f0300f8
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#guillemetDrawable}
@@ -5920,9 +7652,9 @@ public final class R {
       0x7f03006c, 0x7f03007c, 0x7f0300a8, 0x7f0300a9, 
       0x7f0300b3, 0x7f0300ba, 0x7f0300db, 0x7f0300dc, 
       0x7f0300dd, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 
-      0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 0x7f0300ff, 
-      0x7f030100, 0x7f030102, 0x7f030103, 0x7f030104, 
-      0x7f030105, 0x7f03010c
+      0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 0x7f030101, 
+      0x7f030102, 0x7f030104, 0x7f030105, 0x7f030106, 
+      0x7f030107, 0x7f03010e
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#baseCardViewStyle}
@@ -6481,7 +8213,7 @@ public final class R {
     public static final int[] LinearLayoutCompat={
       0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
       0x01010128, 0x7f030070, 0x7f030072, 0x7f0300d3, 
-      0x7f030114
+      0x7f030116
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -6908,7 +8640,7 @@ public final class R {
       0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
       0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
       0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-      0x7f030113
+      0x7f030115
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -7283,7 +9015,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-      0x7f030120
+      0x7f030123
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#state_above_anchor}
@@ -7315,8 +9047,8 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-      0x010100c4, 0x7f0300bc, 0x7f0300fd, 0x7f03011a, 
-      0x7f03011f
+      0x010100c4, 0x7f0300bc, 0x7f0300ff, 0x7f03011c, 
+      0x7f030122
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -7421,8 +9153,8 @@ public final class R {
       0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
       0x7f03004e, 0x7f03005d, 0x7f030065, 0x7f030084, 
       0x7f0300b1, 0x7f0300bb, 0x7f0300f1, 0x7f0300f2, 
-      0x7f030106, 0x7f030107, 0x7f030121, 0x7f030126, 
-      0x7f030148
+      0x7f030108, 0x7f030109, 0x7f030124, 0x7f030129, 
+      0x7f03014b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -7682,19 +9414,34 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_popupTheme com.fireappbuilder.android.calypso:popupTheme}</code></td><td></td></tr>
      * </table>
+     * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
      * @see #Spinner_android_prompt
      * @see #Spinner_android_dropDownWidth
      * @see #Spinner_popupTheme
      */
     public static final int[] Spinner={
-      0x01010176, 0x0101017b, 0x01010262, 0x7f0300ec
+      0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
+      0x7f0300ec
     };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#entries}
+     * attribute's value can be found in the {@link #Spinner} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:entries
+     */
+    public static final int Spinner_android_entries=0;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -7709,7 +9456,7 @@ public final class R {
      *
      * @attr name android:popupBackground
      */
-    public static final int Spinner_android_popupBackground=0;
+    public static final int Spinner_android_popupBackground=1;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#prompt}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -7721,7 +9468,7 @@ public final class R {
      *
      * @attr name android:prompt
      */
-    public static final int Spinner_android_prompt=1;
+    public static final int Spinner_android_prompt=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -7744,7 +9491,7 @@ public final class R {
      *
      * @attr name android:dropDownWidth
      */
-    public static final int Spinner_android_dropDownWidth=2;
+    public static final int Spinner_android_dropDownWidth=3;
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -7756,7 +9503,7 @@ public final class R {
      *
      * @attr name com.fireappbuilder.android.calypso:popupTheme
      */
-    public static final int Spinner_popupTheme=3;
+    public static final int Spinner_popupTheme=4;
     /**
      * Attributes that can be used with a SwitchCompat.
      * <p>Includes the following attributes:</p>
@@ -7787,9 +9534,9 @@ public final class R {
      * @see #SwitchCompat_track
      */
     public static final int[] SwitchCompat={
-      0x01010124, 0x01010125, 0x01010142, 0x7f030115, 
-      0x7f03011e, 0x7f030127, 0x7f030128, 0x7f03012a, 
-      0x7f030136, 0x7f030146
+      0x01010124, 0x01010125, 0x01010142, 0x7f030117, 
+      0x7f030120, 0x7f03012a, 0x7f03012b, 0x7f03012d, 
+      0x7f030139, 0x7f030149
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -7936,7 +9683,7 @@ public final class R {
     public static final int[] TextAppearance={
       0x01010095, 0x01010096, 0x01010097, 0x01010098, 
       0x01010161, 0x01010162, 0x01010163, 0x01010164, 
-      0x7f03012b
+      0x7f03012e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -8056,1624 +9803,6 @@ public final class R {
      */
     public static final int TextAppearance_textAllCaps=8;
     /**
-     * Attributes that can be used with a Theme.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarDivider com.fireappbuilder.android.calypso:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarItemBackground com.fireappbuilder.android.calypso:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarPopupTheme com.fireappbuilder.android.calypso:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarSize com.fireappbuilder.android.calypso:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarSplitStyle com.fireappbuilder.android.calypso:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarStyle com.fireappbuilder.android.calypso:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabBarStyle com.fireappbuilder.android.calypso:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabStyle com.fireappbuilder.android.calypso:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabTextStyle com.fireappbuilder.android.calypso:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTheme com.fireappbuilder.android.calypso:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarWidgetTheme com.fireappbuilder.android.calypso:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionButtonStyle com.fireappbuilder.android.calypso:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionDropDownStyle com.fireappbuilder.android.calypso:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionMenuTextAppearance com.fireappbuilder.android.calypso:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionMenuTextColor com.fireappbuilder.android.calypso:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeBackground com.fireappbuilder.android.calypso:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.fireappbuilder.android.calypso:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCloseDrawable com.fireappbuilder.android.calypso:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCopyDrawable com.fireappbuilder.android.calypso:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCutDrawable com.fireappbuilder.android.calypso:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeFindDrawable com.fireappbuilder.android.calypso:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModePasteDrawable com.fireappbuilder.android.calypso:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.fireappbuilder.android.calypso:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.fireappbuilder.android.calypso:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeShareDrawable com.fireappbuilder.android.calypso:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeSplitBackground com.fireappbuilder.android.calypso:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeStyle com.fireappbuilder.android.calypso:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.fireappbuilder.android.calypso:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.fireappbuilder.android.calypso:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.fireappbuilder.android.calypso:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_activityChooserViewStyle com.fireappbuilder.android.calypso:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.fireappbuilder.android.calypso:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogCenterButtons com.fireappbuilder.android.calypso:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogStyle com.fireappbuilder.android.calypso:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogTheme com.fireappbuilder.android.calypso:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.fireappbuilder.android.calypso:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_borderlessButtonStyle com.fireappbuilder.android.calypso:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarButtonStyle com.fireappbuilder.android.calypso:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.fireappbuilder.android.calypso:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.fireappbuilder.android.calypso:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.fireappbuilder.android.calypso:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarStyle com.fireappbuilder.android.calypso:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonStyle com.fireappbuilder.android.calypso:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonStyleSmall com.fireappbuilder.android.calypso:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_checkboxStyle com.fireappbuilder.android.calypso:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_checkedTextViewStyle com.fireappbuilder.android.calypso:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorAccent com.fireappbuilder.android.calypso:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorButtonNormal com.fireappbuilder.android.calypso:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlActivated com.fireappbuilder.android.calypso:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlHighlight com.fireappbuilder.android.calypso:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlNormal com.fireappbuilder.android.calypso:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorPrimary com.fireappbuilder.android.calypso:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorPrimaryDark com.fireappbuilder.android.calypso:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.fireappbuilder.android.calypso:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_controlBackground com.fireappbuilder.android.calypso:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dialogPreferredPadding com.fireappbuilder.android.calypso:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dialogTheme com.fireappbuilder.android.calypso:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dividerHorizontal com.fireappbuilder.android.calypso:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dividerVertical com.fireappbuilder.android.calypso:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dropDownListViewStyle com.fireappbuilder.android.calypso:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.fireappbuilder.android.calypso:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextBackground com.fireappbuilder.android.calypso:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextColor com.fireappbuilder.android.calypso:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextStyle com.fireappbuilder.android.calypso:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_homeAsUpIndicator com.fireappbuilder.android.calypso:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_imageButtonStyle com.fireappbuilder.android.calypso:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.fireappbuilder.android.calypso:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listDividerAlertDialog com.fireappbuilder.android.calypso:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPopupWindowStyle com.fireappbuilder.android.calypso:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeight com.fireappbuilder.android.calypso:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.fireappbuilder.android.calypso:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.fireappbuilder.android.calypso:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.fireappbuilder.android.calypso:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.fireappbuilder.android.calypso:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelBackground com.fireappbuilder.android.calypso:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelMenuListTheme com.fireappbuilder.android.calypso:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelMenuListWidth com.fireappbuilder.android.calypso:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_popupMenuStyle com.fireappbuilder.android.calypso:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_popupWindowStyle com.fireappbuilder.android.calypso:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_radioButtonStyle com.fireappbuilder.android.calypso:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_ratingBarStyle com.fireappbuilder.android.calypso:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_searchViewStyle com.fireappbuilder.android.calypso:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_seekBarStyle com.fireappbuilder.android.calypso:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_selectableItemBackground com.fireappbuilder.android.calypso:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.fireappbuilder.android.calypso:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.fireappbuilder.android.calypso:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_spinnerStyle com.fireappbuilder.android.calypso:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_switchStyle com.fireappbuilder.android.calypso:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.fireappbuilder.android.calypso:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceListItem com.fireappbuilder.android.calypso:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.fireappbuilder.android.calypso:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.fireappbuilder.android.calypso:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.fireappbuilder.android.calypso:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.fireappbuilder.android.calypso:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.fireappbuilder.android.calypso:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textColorSearchUrl com.fireappbuilder.android.calypso:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.fireappbuilder.android.calypso:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_toolbarStyle com.fireappbuilder.android.calypso:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionBar com.fireappbuilder.android.calypso:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionBarOverlay com.fireappbuilder.android.calypso:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionModeOverlay com.fireappbuilder.android.calypso:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedHeightMajor com.fireappbuilder.android.calypso:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedHeightMinor com.fireappbuilder.android.calypso:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedWidthMajor com.fireappbuilder.android.calypso:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedWidthMinor com.fireappbuilder.android.calypso:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowMinWidthMajor com.fireappbuilder.android.calypso:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowMinWidthMinor com.fireappbuilder.android.calypso:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowNoTitle com.fireappbuilder.android.calypso:windowNoTitle}</code></td><td></td></tr>
-     * </table>
-     * @see #Theme_android_windowIsFloating
-     * @see #Theme_android_windowAnimationStyle
-     * @see #Theme_actionBarDivider
-     * @see #Theme_actionBarItemBackground
-     * @see #Theme_actionBarPopupTheme
-     * @see #Theme_actionBarSize
-     * @see #Theme_actionBarSplitStyle
-     * @see #Theme_actionBarStyle
-     * @see #Theme_actionBarTabBarStyle
-     * @see #Theme_actionBarTabStyle
-     * @see #Theme_actionBarTabTextStyle
-     * @see #Theme_actionBarTheme
-     * @see #Theme_actionBarWidgetTheme
-     * @see #Theme_actionButtonStyle
-     * @see #Theme_actionDropDownStyle
-     * @see #Theme_actionMenuTextAppearance
-     * @see #Theme_actionMenuTextColor
-     * @see #Theme_actionModeBackground
-     * @see #Theme_actionModeCloseButtonStyle
-     * @see #Theme_actionModeCloseDrawable
-     * @see #Theme_actionModeCopyDrawable
-     * @see #Theme_actionModeCutDrawable
-     * @see #Theme_actionModeFindDrawable
-     * @see #Theme_actionModePasteDrawable
-     * @see #Theme_actionModePopupWindowStyle
-     * @see #Theme_actionModeSelectAllDrawable
-     * @see #Theme_actionModeShareDrawable
-     * @see #Theme_actionModeSplitBackground
-     * @see #Theme_actionModeStyle
-     * @see #Theme_actionModeWebSearchDrawable
-     * @see #Theme_actionOverflowButtonStyle
-     * @see #Theme_actionOverflowMenuStyle
-     * @see #Theme_activityChooserViewStyle
-     * @see #Theme_alertDialogButtonGroupStyle
-     * @see #Theme_alertDialogCenterButtons
-     * @see #Theme_alertDialogStyle
-     * @see #Theme_alertDialogTheme
-     * @see #Theme_autoCompleteTextViewStyle
-     * @see #Theme_borderlessButtonStyle
-     * @see #Theme_buttonBarButtonStyle
-     * @see #Theme_buttonBarNegativeButtonStyle
-     * @see #Theme_buttonBarNeutralButtonStyle
-     * @see #Theme_buttonBarPositiveButtonStyle
-     * @see #Theme_buttonBarStyle
-     * @see #Theme_buttonStyle
-     * @see #Theme_buttonStyleSmall
-     * @see #Theme_checkboxStyle
-     * @see #Theme_checkedTextViewStyle
-     * @see #Theme_colorAccent
-     * @see #Theme_colorButtonNormal
-     * @see #Theme_colorControlActivated
-     * @see #Theme_colorControlHighlight
-     * @see #Theme_colorControlNormal
-     * @see #Theme_colorPrimary
-     * @see #Theme_colorPrimaryDark
-     * @see #Theme_colorSwitchThumbNormal
-     * @see #Theme_controlBackground
-     * @see #Theme_dialogPreferredPadding
-     * @see #Theme_dialogTheme
-     * @see #Theme_dividerHorizontal
-     * @see #Theme_dividerVertical
-     * @see #Theme_dropDownListViewStyle
-     * @see #Theme_dropdownListPreferredItemHeight
-     * @see #Theme_editTextBackground
-     * @see #Theme_editTextColor
-     * @see #Theme_editTextStyle
-     * @see #Theme_homeAsUpIndicator
-     * @see #Theme_imageButtonStyle
-     * @see #Theme_listChoiceBackgroundIndicator
-     * @see #Theme_listDividerAlertDialog
-     * @see #Theme_listPopupWindowStyle
-     * @see #Theme_listPreferredItemHeight
-     * @see #Theme_listPreferredItemHeightLarge
-     * @see #Theme_listPreferredItemHeightSmall
-     * @see #Theme_listPreferredItemPaddingLeft
-     * @see #Theme_listPreferredItemPaddingRight
-     * @see #Theme_panelBackground
-     * @see #Theme_panelMenuListTheme
-     * @see #Theme_panelMenuListWidth
-     * @see #Theme_popupMenuStyle
-     * @see #Theme_popupWindowStyle
-     * @see #Theme_radioButtonStyle
-     * @see #Theme_ratingBarStyle
-     * @see #Theme_searchViewStyle
-     * @see #Theme_seekBarStyle
-     * @see #Theme_selectableItemBackground
-     * @see #Theme_selectableItemBackgroundBorderless
-     * @see #Theme_spinnerDropDownItemStyle
-     * @see #Theme_spinnerStyle
-     * @see #Theme_switchStyle
-     * @see #Theme_textAppearanceLargePopupMenu
-     * @see #Theme_textAppearanceListItem
-     * @see #Theme_textAppearanceListItemSmall
-     * @see #Theme_textAppearanceSearchResultSubtitle
-     * @see #Theme_textAppearanceSearchResultTitle
-     * @see #Theme_textAppearanceSmallPopupMenu
-     * @see #Theme_textColorAlertDialogListItem
-     * @see #Theme_textColorSearchUrl
-     * @see #Theme_toolbarNavigationButtonStyle
-     * @see #Theme_toolbarStyle
-     * @see #Theme_windowActionBar
-     * @see #Theme_windowActionBarOverlay
-     * @see #Theme_windowActionModeOverlay
-     * @see #Theme_windowFixedHeightMajor
-     * @see #Theme_windowFixedHeightMinor
-     * @see #Theme_windowFixedWidthMajor
-     * @see #Theme_windowFixedWidthMinor
-     * @see #Theme_windowMinWidthMajor
-     * @see #Theme_windowMinWidthMinor
-     * @see #Theme_windowNoTitle
-     */
-    public static final int[] Theme={
-      0x01010057, 0x010100ae, 0x7f030000, 0x7f030001, 
-      0x7f030002, 0x7f030003, 0x7f030004, 0x7f030005, 
-      0x7f030006, 0x7f030007, 0x7f030008, 0x7f030009, 
-      0x7f03000a, 0x7f03000b, 0x7f03000c, 0x7f03000e, 
-      0x7f03000f, 0x7f030010, 0x7f030011, 0x7f030012, 
-      0x7f030013, 0x7f030014, 0x7f030015, 0x7f030016, 
-      0x7f030017, 0x7f030018, 0x7f030019, 0x7f03001a, 
-      0x7f03001b, 0x7f03001c, 0x7f03001d, 0x7f03001e, 
-      0x7f030022, 0x7f030023, 0x7f030024, 0x7f030025, 
-      0x7f030026, 0x7f03002a, 0x7f030032, 0x7f03003f, 
-      0x7f030040, 0x7f030041, 0x7f030042, 0x7f030043, 
-      0x7f030045, 0x7f030046, 0x7f03004c, 0x7f03004d, 
-      0x7f030054, 0x7f030055, 0x7f030056, 0x7f030057, 
-      0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 
-      0x7f030062, 0x7f03006d, 0x7f03006e, 0x7f030071, 
-      0x7f030073, 0x7f030076, 0x7f030077, 0x7f030078, 
-      0x7f030079, 0x7f03007a, 0x7f0300ad, 0x7f0300b2, 
-      0x7f0300c5, 0x7f0300c6, 0x7f0300c9, 0x7f0300ca, 
-      0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 
-      0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300eb, 
-      0x7f0300ed, 0x7f0300f3, 0x7f0300f4, 0x7f03010d, 
-      0x7f03010e, 0x7f03010f, 0x7f030110, 0x7f03011c, 
-      0x7f03011d, 0x7f030129, 0x7f03012c, 0x7f03012d, 
-      0x7f03012e, 0x7f03012f, 0x7f030130, 0x7f030131, 
-      0x7f030132, 0x7f030133, 0x7f030144, 0x7f030145, 
-      0x7f030149, 0x7f03014a, 0x7f03014b, 0x7f03014c, 
-      0x7f03014d, 0x7f03014e, 0x7f03014f, 0x7f030150, 
-      0x7f030151, 0x7f030152
-    };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:windowIsFloating
-     */
-    public static final int Theme_android_windowIsFloating=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int Theme_android_windowAnimationStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarDivider}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarDivider
-     */
-    public static final int Theme_actionBarDivider=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarItemBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarItemBackground
-     */
-    public static final int Theme_actionBarItemBackground=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarPopupTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarPopupTheme
-     */
-    public static final int Theme_actionBarPopupTheme=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarSize}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>wrap_content</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarSize
-     */
-    public static final int Theme_actionBarSize=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarSplitStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarSplitStyle
-     */
-    public static final int Theme_actionBarSplitStyle=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarStyle
-     */
-    public static final int Theme_actionBarStyle=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTabBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarTabBarStyle
-     */
-    public static final int Theme_actionBarTabBarStyle=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTabStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarTabStyle
-     */
-    public static final int Theme_actionBarTabStyle=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTabTextStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarTabTextStyle
-     */
-    public static final int Theme_actionBarTabTextStyle=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarTheme
-     */
-    public static final int Theme_actionBarTheme=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionBarWidgetTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionBarWidgetTheme
-     */
-    public static final int Theme_actionBarWidgetTheme=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionButtonStyle
-     */
-    public static final int Theme_actionButtonStyle=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionDropDownStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionDropDownStyle
-     */
-    public static final int Theme_actionDropDownStyle=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionMenuTextAppearance}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionMenuTextAppearance
-     */
-    public static final int Theme_actionMenuTextAppearance=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionMenuTextColor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionMenuTextColor
-     */
-    public static final int Theme_actionMenuTextColor=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeBackground
-     */
-    public static final int Theme_actionModeBackground=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCloseButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeCloseButtonStyle
-     */
-    public static final int Theme_actionModeCloseButtonStyle=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCloseDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeCloseDrawable
-     */
-    public static final int Theme_actionModeCloseDrawable=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCopyDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeCopyDrawable
-     */
-    public static final int Theme_actionModeCopyDrawable=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeCutDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeCutDrawable
-     */
-    public static final int Theme_actionModeCutDrawable=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeFindDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeFindDrawable
-     */
-    public static final int Theme_actionModeFindDrawable=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModePasteDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModePasteDrawable
-     */
-    public static final int Theme_actionModePasteDrawable=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModePopupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModePopupWindowStyle
-     */
-    public static final int Theme_actionModePopupWindowStyle=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeSelectAllDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeSelectAllDrawable
-     */
-    public static final int Theme_actionModeSelectAllDrawable=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeShareDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeShareDrawable
-     */
-    public static final int Theme_actionModeShareDrawable=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeSplitBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeSplitBackground
-     */
-    public static final int Theme_actionModeSplitBackground=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeStyle
-     */
-    public static final int Theme_actionModeStyle=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionModeWebSearchDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionModeWebSearchDrawable
-     */
-    public static final int Theme_actionModeWebSearchDrawable=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionOverflowButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionOverflowButtonStyle
-     */
-    public static final int Theme_actionOverflowButtonStyle=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#actionOverflowMenuStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:actionOverflowMenuStyle
-     */
-    public static final int Theme_actionOverflowMenuStyle=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#activityChooserViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:activityChooserViewStyle
-     */
-    public static final int Theme_activityChooserViewStyle=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogButtonGroupStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:alertDialogButtonGroupStyle
-     */
-    public static final int Theme_alertDialogButtonGroupStyle=33;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogCenterButtons}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:alertDialogCenterButtons
-     */
-    public static final int Theme_alertDialogCenterButtons=34;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:alertDialogStyle
-     */
-    public static final int Theme_alertDialogStyle=35;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#alertDialogTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:alertDialogTheme
-     */
-    public static final int Theme_alertDialogTheme=36;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#autoCompleteTextViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:autoCompleteTextViewStyle
-     */
-    public static final int Theme_autoCompleteTextViewStyle=37;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#borderlessButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:borderlessButtonStyle
-     */
-    public static final int Theme_borderlessButtonStyle=38;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:buttonBarButtonStyle
-     */
-    public static final int Theme_buttonBarButtonStyle=39;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarNegativeButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:buttonBarNegativeButtonStyle
-     */
-    public static final int Theme_buttonBarNegativeButtonStyle=40;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarNeutralButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:buttonBarNeutralButtonStyle
-     */
-    public static final int Theme_buttonBarNeutralButtonStyle=41;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarPositiveButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:buttonBarPositiveButtonStyle
-     */
-    public static final int Theme_buttonBarPositiveButtonStyle=42;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:buttonBarStyle
-     */
-    public static final int Theme_buttonBarStyle=43;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:buttonStyle
-     */
-    public static final int Theme_buttonStyle=44;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#buttonStyleSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:buttonStyleSmall
-     */
-    public static final int Theme_buttonStyleSmall=45;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#checkboxStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:checkboxStyle
-     */
-    public static final int Theme_checkboxStyle=46;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#checkedTextViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:checkedTextViewStyle
-     */
-    public static final int Theme_checkedTextViewStyle=47;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorAccent}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorAccent
-     */
-    public static final int Theme_colorAccent=48;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorButtonNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorButtonNormal
-     */
-    public static final int Theme_colorButtonNormal=49;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorControlActivated}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorControlActivated
-     */
-    public static final int Theme_colorControlActivated=50;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorControlHighlight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorControlHighlight
-     */
-    public static final int Theme_colorControlHighlight=51;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorControlNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorControlNormal
-     */
-    public static final int Theme_colorControlNormal=52;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorPrimary}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorPrimary
-     */
-    public static final int Theme_colorPrimary=53;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorPrimaryDark}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorPrimaryDark
-     */
-    public static final int Theme_colorPrimaryDark=54;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#colorSwitchThumbNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:colorSwitchThumbNormal
-     */
-    public static final int Theme_colorSwitchThumbNormal=55;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#controlBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:controlBackground
-     */
-    public static final int Theme_controlBackground=56;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dialogPreferredPadding}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:dialogPreferredPadding
-     */
-    public static final int Theme_dialogPreferredPadding=57;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dialogTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:dialogTheme
-     */
-    public static final int Theme_dialogTheme=58;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dividerHorizontal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:dividerHorizontal
-     */
-    public static final int Theme_dividerHorizontal=59;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dividerVertical}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:dividerVertical
-     */
-    public static final int Theme_dividerVertical=60;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dropDownListViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:dropDownListViewStyle
-     */
-    public static final int Theme_dropDownListViewStyle=61;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#dropdownListPreferredItemHeight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:dropdownListPreferredItemHeight
-     */
-    public static final int Theme_dropdownListPreferredItemHeight=62;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#editTextBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:editTextBackground
-     */
-    public static final int Theme_editTextBackground=63;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#editTextColor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:editTextColor
-     */
-    public static final int Theme_editTextColor=64;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#editTextStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:editTextStyle
-     */
-    public static final int Theme_editTextStyle=65;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#homeAsUpIndicator}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:homeAsUpIndicator
-     */
-    public static final int Theme_homeAsUpIndicator=66;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#imageButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:imageButtonStyle
-     */
-    public static final int Theme_imageButtonStyle=67;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listChoiceBackgroundIndicator}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:listChoiceBackgroundIndicator
-     */
-    public static final int Theme_listChoiceBackgroundIndicator=68;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listDividerAlertDialog}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:listDividerAlertDialog
-     */
-    public static final int Theme_listDividerAlertDialog=69;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPopupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:listPopupWindowStyle
-     */
-    public static final int Theme_listPopupWindowStyle=70;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemHeight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:listPreferredItemHeight
-     */
-    public static final int Theme_listPreferredItemHeight=71;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemHeightLarge}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:listPreferredItemHeightLarge
-     */
-    public static final int Theme_listPreferredItemHeightLarge=72;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemHeightSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:listPreferredItemHeightSmall
-     */
-    public static final int Theme_listPreferredItemHeightSmall=73;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemPaddingLeft}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:listPreferredItemPaddingLeft
-     */
-    public static final int Theme_listPreferredItemPaddingLeft=74;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#listPreferredItemPaddingRight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:listPreferredItemPaddingRight
-     */
-    public static final int Theme_listPreferredItemPaddingRight=75;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#panelBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:panelBackground
-     */
-    public static final int Theme_panelBackground=76;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#panelMenuListTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:panelMenuListTheme
-     */
-    public static final int Theme_panelMenuListTheme=77;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#panelMenuListWidth}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.fireappbuilder.android.calypso:panelMenuListWidth
-     */
-    public static final int Theme_panelMenuListWidth=78;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#popupMenuStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:popupMenuStyle
-     */
-    public static final int Theme_popupMenuStyle=79;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#popupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:popupWindowStyle
-     */
-    public static final int Theme_popupWindowStyle=80;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#radioButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:radioButtonStyle
-     */
-    public static final int Theme_radioButtonStyle=81;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#ratingBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:ratingBarStyle
-     */
-    public static final int Theme_ratingBarStyle=82;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#searchViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:searchViewStyle
-     */
-    public static final int Theme_searchViewStyle=83;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#seekBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:seekBarStyle
-     */
-    public static final int Theme_seekBarStyle=84;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#selectableItemBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:selectableItemBackground
-     */
-    public static final int Theme_selectableItemBackground=85;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#selectableItemBackgroundBorderless}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:selectableItemBackgroundBorderless
-     */
-    public static final int Theme_selectableItemBackgroundBorderless=86;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#spinnerDropDownItemStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:spinnerDropDownItemStyle
-     */
-    public static final int Theme_spinnerDropDownItemStyle=87;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#spinnerStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:spinnerStyle
-     */
-    public static final int Theme_spinnerStyle=88;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#switchStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:switchStyle
-     */
-    public static final int Theme_switchStyle=89;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceLargePopupMenu}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textAppearanceLargePopupMenu
-     */
-    public static final int Theme_textAppearanceLargePopupMenu=90;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceListItem}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textAppearanceListItem
-     */
-    public static final int Theme_textAppearanceListItem=91;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceListItemSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textAppearanceListItemSmall
-     */
-    public static final int Theme_textAppearanceListItemSmall=92;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceSearchResultSubtitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textAppearanceSearchResultSubtitle
-     */
-    public static final int Theme_textAppearanceSearchResultSubtitle=93;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceSearchResultTitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textAppearanceSearchResultTitle
-     */
-    public static final int Theme_textAppearanceSearchResultTitle=94;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textAppearanceSmallPopupMenu}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textAppearanceSmallPopupMenu
-     */
-    public static final int Theme_textAppearanceSmallPopupMenu=95;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textColorAlertDialogListItem}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textColorAlertDialogListItem
-     */
-    public static final int Theme_textColorAlertDialogListItem=96;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#textColorSearchUrl}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:textColorSearchUrl
-     */
-    public static final int Theme_textColorSearchUrl=97;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#toolbarNavigationButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:toolbarNavigationButtonStyle
-     */
-    public static final int Theme_toolbarNavigationButtonStyle=98;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#toolbarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:toolbarStyle
-     */
-    public static final int Theme_toolbarStyle=99;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowActionBar}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowActionBar
-     */
-    public static final int Theme_windowActionBar=100;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowActionBarOverlay}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowActionBarOverlay
-     */
-    public static final int Theme_windowActionBarOverlay=101;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowActionModeOverlay}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowActionModeOverlay
-     */
-    public static final int Theme_windowActionModeOverlay=102;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedHeightMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowFixedHeightMajor
-     */
-    public static final int Theme_windowFixedHeightMajor=103;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedHeightMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowFixedHeightMinor
-     */
-    public static final int Theme_windowFixedHeightMinor=104;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedWidthMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowFixedWidthMajor
-     */
-    public static final int Theme_windowFixedWidthMajor=105;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowFixedWidthMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowFixedWidthMinor
-     */
-    public static final int Theme_windowFixedWidthMinor=106;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowMinWidthMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowMinWidthMajor
-     */
-    public static final int Theme_windowMinWidthMajor=107;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowMinWidthMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowMinWidthMinor
-     */
-    public static final int Theme_windowMinWidthMinor=108;
-    /**
-     * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#windowNoTitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.fireappbuilder.android.calypso:windowNoTitle
-     */
-    public static final int Theme_windowNoTitle=109;
-    /**
      * Attributes that can be used with a Toolbar.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -9736,10 +9865,10 @@ public final class R {
       0x010100af, 0x01010140, 0x7f030051, 0x7f030052, 
       0x7f03005e, 0x7f03005f, 0x7f030060, 0x7f030061, 
       0x7f0300cf, 0x7f0300d0, 0x7f0300d2, 0x7f0300d5, 
-      0x7f0300d6, 0x7f0300ec, 0x7f030122, 0x7f030123, 
-      0x7f030124, 0x7f03013b, 0x7f03013c, 0x7f03013d, 
-      0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030141, 
-      0x7f030142
+      0x7f0300d6, 0x7f0300ec, 0x7f030125, 0x7f030126, 
+      0x7f030127, 0x7f03013e, 0x7f03013f, 0x7f030140, 
+      0x7f030141, 0x7f030142, 0x7f030143, 0x7f030144, 
+      0x7f030145
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -10078,7 +10207,7 @@ public final class R {
      */
     public static final int[] View={
       0x01010000, 0x010100da, 0x7f0300de, 0x7f0300df, 
-      0x7f030134
+      0x7f030137
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -10285,7 +10414,7 @@ public final class R {
      */
     public static final int[] lbBaseCardView={
       0x7f030021, 0x7f030049, 0x7f03004a, 0x7f03004b, 
-      0x7f03007e, 0x7f0300b6, 0x7f030111, 0x7f030112
+      0x7f03007e, 0x7f0300b6, 0x7f030113, 0x7f030114
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#activatedAnimationDuration}
@@ -10452,7 +10581,7 @@ public final class R {
      */
     public static final int[] lbBaseGridView={
       0x010100af, 0x7f030080, 0x7f030081, 0x7f0300af, 
-      0x7f030147
+      0x7f03014a
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -10543,7 +10672,7 @@ public final class R {
      * @see #lbHorizontalGridView_rowHeight
      */
     public static final int[] lbHorizontalGridView={
-      0x7f0300d9, 0x7f030101
+      0x7f0300d9, 0x7f030103
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#numberOfRows}
@@ -10738,9 +10867,9 @@ public final class R {
      */
     public static final int[] lbPlaybackControlsActionIcons={
       0x7f030050, 0x7f03007f, 0x7f0300ac, 0x7f0300e3, 
-      0x7f0300e4, 0x7f0300f7, 0x7f0300f8, 0x7f0300fe, 
-      0x7f030116, 0x7f030118, 0x7f030119, 0x7f030137, 
-      0x7f030138, 0x7f030139, 0x7f03013a
+      0x7f0300e4, 0x7f0300f9, 0x7f0300fa, 0x7f030100, 
+      0x7f030118, 0x7f03011a, 0x7f03011b, 0x7f03013a, 
+      0x7f03013b, 0x7f03013c, 0x7f03013d
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#closed_captioning}
@@ -10942,8 +11071,8 @@ public final class R {
      * @see #lbResizingTextView_resizedTextSize
      */
     public static final int[] lbResizingTextView={
-      0x7f0300d1, 0x7f0300f9, 0x7f0300fa, 0x7f0300fb, 
-      0x7f0300fc
+      0x7f0300d1, 0x7f0300fb, 0x7f0300fc, 0x7f0300fd, 
+      0x7f0300fe
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#maintainLineSpacing}
@@ -11028,7 +11157,7 @@ public final class R {
      * @see #lbSearchOrbView_searchOrbIconColor
      */
     public static final int[] lbSearchOrbView={
-      0x7f030108, 0x7f030109, 0x7f03010a, 0x7f03010b
+      0x7f03010a, 0x7f03010b, 0x7f03010c, 0x7f03010d
     };
     /**
      * <p>This symbol is the offset where the {@link com.fireappbuilder.android.calypso.R.attr#searchOrbBrightColor}

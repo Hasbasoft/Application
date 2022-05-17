@@ -98,7 +98,7 @@ dependencies {
     compile project(':TVUIComponent')
     compile project(':UAMP')
     compile project(':AMZNMediaPlayerComponent')
-    compile project(':PassThroughAdsComponent')
+    compile project(':VastAdsComponent')
     compile project(':PassThroughLoginComponent')
     compile project(':LoggerAnalyticsComponent')
 }

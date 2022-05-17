@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./../VastAdsComponent/libs/mfXerces.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../VastAdsComponent/libs/mfXerces.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

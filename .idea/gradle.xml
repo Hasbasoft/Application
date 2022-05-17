@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -20,13 +21,13 @@
             <option value="$PROJECT_DIR$/../DynamicParser" />
             <option value="$PROJECT_DIR$/../LoggerAnalyticsComponent" />
             <option value="$PROJECT_DIR$/../ModuleInterface" />
-            <option value="$PROJECT_DIR$/../PassThroughAdsComponent" />
             <option value="$PROJECT_DIR$/../PassThroughLoginComponent" />
             <option value="$PROJECT_DIR$/../PurchaseInterface" />
             <option value="$PROJECT_DIR$/../TVUIComponent/Calligraphy" />
             <option value="$PROJECT_DIR$/../TVUIComponent/lib" />
             <option value="$PROJECT_DIR$/../UAMP" />
             <option value="$PROJECT_DIR$/../Utils" />
+            <option value="$PROJECT_DIR$/../VastAdsComponent" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

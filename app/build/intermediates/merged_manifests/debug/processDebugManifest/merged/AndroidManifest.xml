@@ -129,8 +129,8 @@ permissions and limitations under the License.
             android:enabled="true" />
 
         <meta-data
-            android:name="AMZNAP@PassThroughAds"
-            android:value="IAds@com.amazon.ads.passthrough.PassThroughAdsImplCreator" />
+            android:name="AMZNAP@VASTAdsPlayer"
+            android:value="IAds@com.amazon.android.ads.vast.module.VastAdsImplCreator" />
         <meta-data
             android:name="AMZNAP@PassThroughLogin"
             android:value="IAuthentication@com.amazon.android.auth.passthrough.PassThroughLoginImplCreator" />
