@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.test:exposed-instrumentation-api-publish:0.4.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/exposed-instrumentation-api-publish-0.4.1.aar/3c3aee4e932f24d9cc75dfdc8c37fb3b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/exposed-instrumentation-api-publish-0.4.1.aar/3c3aee4e932f24d9cc75dfdc8c37fb3b/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

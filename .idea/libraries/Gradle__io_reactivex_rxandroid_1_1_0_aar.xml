@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: io.reactivex:rxandroid:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/a3382012911bbb73c51775fde0bfdd16/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/a3382012911bbb73c51775fde0bfdd16/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

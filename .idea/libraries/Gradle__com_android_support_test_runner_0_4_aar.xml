@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.test:runner:0.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/runner-0.4.aar/7850fcc787df1a32f479b628f98e55e8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/runner-0.4.aar/7850fcc787df1a32f479b628f98e55e8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

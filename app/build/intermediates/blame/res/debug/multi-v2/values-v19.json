@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/shirajsayed/Desktop/fire-app-builder-master/Application/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/shirajsayed/.gradle/caches/transforms-1/files-1.1/leanback-v17-23.1.1.aar/4d9248d5e390637e550cdd2de1ceef18/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "229",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "748"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "574"
+                    }
+                }
+            ]
+        }
+    ]
+}
